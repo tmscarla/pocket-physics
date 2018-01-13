@@ -1,0 +1,1364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A0892BF1844B52500BCDF31 /* velocitafuga@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0892BE1844B52500BCDF31 /* velocitafuga@2x.png */; };
+		7A0892C11844B52A00BCDF31 /* velocitafuga.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0892C01844B52A00BCDF31 /* velocitafuga.png */; };
+		7A0892C31844B55500BCDF31 /* girodellamorte.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0892C21844B55500BCDF31 /* girodellamorte.png */; };
+		7A0892C51844B55C00BCDF31 /* girodellamorte@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0892C41844B55C00BCDF31 /* girodellamorte@2x.png */; };
+		7A0892C71844B6E000BCDF31 /* link.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0892C61844B6E000BCDF31 /* link.png */; };
+		7A0892C91844B6E900BCDF31 /* link@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0892C81844B6E900BCDF31 /* link@2x.png */; };
+		7A0892CB1844B95700BCDF31 /* divisorio.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0892CA1844B95700BCDF31 /* divisorio.png */; };
+		7A1BF46418A543FE0042F872 /* coveriPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BF46318A543FE0042F872 /* coveriPad.png */; };
+		7A1BF46618A55D170042F872 /* fis40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BF46518A55D170042F872 /* fis40.png */; };
+		7A1BF46818A55D1E0042F872 /* fis50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BF46718A55D1E0042F872 /* fis50.png */; };
+		7A1BF46A18A55D270042F872 /* fis72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BF46918A55D270042F872 /* fis72.png */; };
+		7A1BF46C18A55D2D0042F872 /* fis76.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BF46B18A55D2D0042F872 /* fis76.png */; };
+		7A1BF46E18A55D380042F872 /* fis100.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BF46D18A55D380042F872 /* fis100.png */; };
+		7A1BF47018A55D450042F872 /* fis144.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BF46F18A55D450042F872 /* fis144.png */; };
+		7A1BF47218A55D4A0042F872 /* fis152.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BF47118A55D4A0042F872 /* fis152.png */; };
+		7A1BF47418A55D4F0042F872 /* fis1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BF47318A55D4F0042F872 /* fis1024.png */; };
+		7A1BF47618A61DAE0042F872 /* giro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BF47518A61DAE0042F872 /* giro@2x.png */; };
+		7A1BF47818A61DB80042F872 /* giro.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BF47718A61DB80042F872 /* giro.png */; };
+		7A1BF47A18A61DC00042F872 /* fuga@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BF47918A61DC00042F872 /* fuga@2x.png */; };
+		7A1BF47C18A61DC70042F872 /* fuga.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BF47B18A61DC70042F872 /* fuga.png */; };
+		7A1BF47E18A61DCF0042F872 /* formulario@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BF47D18A61DCF0042F872 /* formulario@2x.png */; };
+		7A1BF48018A61DD70042F872 /* formulario.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BF47F18A61DD70042F872 /* formulario.png */; };
+		7A1BF48218A61DE40042F872 /* glossario.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BF48118A61DE40042F872 /* glossario.png */; };
+		7A1BF48418A61DEB0042F872 /* glossario@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BF48318A61DEB0042F872 /* glossario@2x.png */; };
+		7A1BF48618A61DF60042F872 /* pianoinclinato.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BF48518A61DF60042F872 /* pianoinclinato.png */; };
+		7A1BF48818A61DFC0042F872 /* pianoinclinato@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BF48718A61DFC0042F872 /* pianoinclinato@2x.png */; };
+		7A2053481899A70500F7014F /* SBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2053471899A70500F7014F /* SBNavigationController.m */; };
+		7A20D6AC18201255001710FF /* Cinematica_Formulario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A20D6A018201255001710FF /* Cinematica_Formulario.pdf */; };
+		7A20D6AD18201255001710FF /* Costanti fisiche_Formulario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A20D6A118201255001710FF /* Costanti fisiche_Formulario.pdf */; };
+		7A20D6AE18201255001710FF /* Elasticità_Formulario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A20D6A218201255001710FF /* Elasticità_Formulario.pdf */; };
+		7A20D6AF18201255001710FF /* Energia_Formulario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A20D6A318201255001710FF /* Energia_Formulario.pdf */; };
+		7A20D6B018201255001710FF /* Fluidi_Formulario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A20D6A418201255001710FF /* Fluidi_Formulario.pdf */; };
+		7A20D6B118201255001710FF /* Forze_Formulario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A20D6A518201255001710FF /* Forze_Formulario.pdf */; };
+		7A20D6B218201255001710FF /* Impulso e Momento angolare_Formulario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A20D6A618201255001710FF /* Impulso e Momento angolare_Formulario.pdf */; };
+		7A20D6B318201255001710FF /* Onde_Formulario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A20D6A718201255001710FF /* Onde_Formulario.pdf */; };
+		7A20D6B418201255001710FF /* Sistemi a più corpi_Formulario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A20D6A818201255001710FF /* Sistemi a più corpi_Formulario.pdf */; };
+		7A20D6B518201255001710FF /* Termodinamica_Formulario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A20D6A918201255001710FF /* Termodinamica_Formulario.pdf */; };
+		7A20D6B618201255001710FF /* Urti_Formulario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A20D6AA18201255001710FF /* Urti_Formulario.pdf */; };
+		7A20D6B718201255001710FF /* Vettori_Formulario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A20D6AB18201255001710FF /* Vettori_Formulario.pdf */; };
+		7A20D6BE1826E89C001710FF /* picker.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A20D6BD1826E89C001710FF /* picker.png */; };
+		7A4208A31840E68700381680 /* pianoinclinatodx.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A4208A21840E68700381680 /* pianoinclinatodx.png */; };
+		7A4208A51840E68C00381680 /* pianoinclinatodx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A4208A41840E68C00381680 /* pianoinclinatodx@2x.png */; };
+		7A4208A71840E69500381680 /* pianoinclinatonull.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A4208A61840E69500381680 /* pianoinclinatonull.png */; };
+		7A4208A91840E69C00381680 /* pianoinclinatonull@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A4208A81840E69C00381680 /* pianoinclinatonull@2x.png */; };
+		7A4208AB1840E6A100381680 /* pianoinclinatosx.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A4208AA1840E6A100381680 /* pianoinclinatosx.png */; };
+		7A4208AD1840E6A600381680 /* pianoinclinatosx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A4208AC1840E6A600381680 /* pianoinclinatosx@2x.png */; };
+		7A4208B318424C5300381680 /* velocita.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A4208B218424C5300381680 /* velocita.png */; };
+		7A4208B518424C5800381680 /* velocita@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A4208B418424C5800381680 /* velocita@2x.png */; };
+		7A48B25F184BCF6800254527 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A48B25E184BCF6800254527 /* Main_iPad.storyboard */; };
+		7A5B559D189D412500E9BF0D /* Bibliografia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B5588189D412500E9BF0D /* Bibliografia.pdf */; };
+		7A5B559E189D412500E9BF0D /* Campo Elettrico.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B5589189D412500E9BF0D /* Campo Elettrico.pdf */; };
+		7A5B559F189D412500E9BF0D /* Campo Magnetico.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B558A189D412500E9BF0D /* Campo Magnetico.pdf */; };
+		7A5B55A0189D412500E9BF0D /* Corrente Elettrica.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B558B189D412500E9BF0D /* Corrente Elettrica.pdf */; };
+		7A5B55A1189D412500E9BF0D /* Dinamica Rotazionale.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B558C189D412500E9BF0D /* Dinamica Rotazionale.pdf */; };
+		7A5B55A2189D412500E9BF0D /* Energia Potenziale e Conservazione dell'Energia Meccanica.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B558D189D412500E9BF0D /* Energia Potenziale e Conservazione dell'Energia Meccanica.pdf */; };
+		7A5B55A3189D412500E9BF0D /* Equazioni di Maxwell.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B558E189D412500E9BF0D /* Equazioni di Maxwell.pdf */; };
+		7A5B55A4189D412500E9BF0D /* Fenomeni Quantistici.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B558F189D412500E9BF0D /* Fenomeni Quantistici.pdf */; };
+		7A5B55A5189D412500E9BF0D /* Gravitazione.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B5590189D412500E9BF0D /* Gravitazione.pdf */; };
+		7A5B55A6189D412500E9BF0D /* Impulso e Quantità di Moto.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B5591189D412500E9BF0D /* Impulso e Quantità di Moto.pdf */; };
+		7A5B55A7189D412500E9BF0D /* Induzione Elettromagnetica.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B5592189D412500E9BF0D /* Induzione Elettromagnetica.pdf */; };
+		7A5B55A8189D412500E9BF0D /* Lavoro ed Energia Cinetica.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B5593189D412500E9BF0D /* Lavoro ed Energia Cinetica.pdf */; };
+		7A5B55A9189D412500E9BF0D /* Meccanica dei Fluidi.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B5594189D412500E9BF0D /* Meccanica dei Fluidi.pdf */; };
+		7A5B55AA189D412500E9BF0D /* Modello Cinetico dei Gas e Energia Interna.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B5595189D412500E9BF0D /* Modello Cinetico dei Gas e Energia Interna.pdf */; };
+		7A5B55AB189D412500E9BF0D /* Moti Piani e Sistemi di Riferimento non Inerziali.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B5596189D412500E9BF0D /* Moti Piani e Sistemi di Riferimento non Inerziali.pdf */; };
+		7A5B55AC189D412500E9BF0D /* Moti Rettilinei e Forze Costanti.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B5597189D412500E9BF0D /* Moti Rettilinei e Forze Costanti.pdf */; };
+		7A5B55AD189D412500E9BF0D /* Onde.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B5598189D412500E9BF0D /* Onde.pdf */; };
+		7A5B55AE189D412500E9BF0D /* Primo Principio della Termodinamica.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B5599189D412500E9BF0D /* Primo Principio della Termodinamica.pdf */; };
+		7A5B55AF189D412500E9BF0D /* Secondo Principio della Termodinamica.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B559A189D412500E9BF0D /* Secondo Principio della Termodinamica.pdf */; };
+		7A5B55B0189D412500E9BF0D /* Temperatura.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B559B189D412500E9BF0D /* Temperatura.pdf */; };
+		7A5B55B1189D412500E9BF0D /* Teoria della Relativita  Speciale.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B559C189D412500E9BF0D /* Teoria della Relativita  Speciale.pdf */; };
+		7A5B55C6189D413D00E9BF0D /* Campo Elettrico_Esercizi.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55B3189D413D00E9BF0D /* Campo Elettrico_Esercizi.pdf */; };
+		7A5B55C7189D413D00E9BF0D /* Campo Magnetico_Esercizi.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55B4189D413D00E9BF0D /* Campo Magnetico_Esercizi.pdf */; };
+		7A5B55C8189D413D00E9BF0D /* Corrente Elettrica_Esercizi.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55B5189D413D00E9BF0D /* Corrente Elettrica_Esercizi.pdf */; };
+		7A5B55C9189D413D00E9BF0D /* Dinamica Rotazionale_Esercizi.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55B6189D413D00E9BF0D /* Dinamica Rotazionale_Esercizi.pdf */; };
+		7A5B55CA189D413D00E9BF0D /* Energia Potenziale e Conservazione_Esercizi.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55B7189D413D00E9BF0D /* Energia Potenziale e Conservazione_Esercizi.pdf */; };
+		7A5B55CB189D413D00E9BF0D /* Equazioni di Maxwell_Esercizi.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55B8189D413D00E9BF0D /* Equazioni di Maxwell_Esercizi.pdf */; };
+		7A5B55CC189D413D00E9BF0D /* Gravitazione_Esercizi.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55B9189D413D00E9BF0D /* Gravitazione_Esercizi.pdf */; };
+		7A5B55CD189D413D00E9BF0D /* Impulso e Quantita  di Moto_Esercizi.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55BA189D413D00E9BF0D /* Impulso e Quantita  di Moto_Esercizi.pdf */; };
+		7A5B55CE189D413D00E9BF0D /* Induzione Elettromagnetica_Esercizi.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55BB189D413D00E9BF0D /* Induzione Elettromagnetica_Esercizi.pdf */; };
+		7A5B55CF189D413D00E9BF0D /* Lavoro ed Energia Cinetica_Esercizi[smallpdf.com].pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55BC189D413D00E9BF0D /* Lavoro ed Energia Cinetica_Esercizi[smallpdf.com].pdf */; };
+		7A5B55D0189D413D00E9BF0D /* Meccanica dei Fluidi_Esercizi[smallpdf.com].pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55BD189D413D00E9BF0D /* Meccanica dei Fluidi_Esercizi[smallpdf.com].pdf */; };
+		7A5B55D1189D413D00E9BF0D /* Modello cinetico dei Gas e Energia Interna_Esercizi[smallpdf.com].pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55BE189D413D00E9BF0D /* Modello cinetico dei Gas e Energia Interna_Esercizi[smallpdf.com].pdf */; };
+		7A5B55D2189D413D00E9BF0D /* Moti Piani e Sistemi di Riferimento non Inerziali_Esercizi.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55BF189D413D00E9BF0D /* Moti Piani e Sistemi di Riferimento non Inerziali_Esercizi.pdf */; };
+		7A5B55D3189D413D00E9BF0D /* Moti Rettilinei e Forze Costanti_Esercizi.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55C0189D413D00E9BF0D /* Moti Rettilinei e Forze Costanti_Esercizi.pdf */; };
+		7A5B55D4189D413D00E9BF0D /* Onde_Esercizi.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55C1189D413D00E9BF0D /* Onde_Esercizi.pdf */; };
+		7A5B55D5189D413D00E9BF0D /* Primo Principio della Termodinamica_Esercizi.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55C2189D413D00E9BF0D /* Primo Principio della Termodinamica_Esercizi.pdf */; };
+		7A5B55D6189D413D00E9BF0D /* Quesiti di Elettromagnetismo_Esercizi.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55C3189D413D00E9BF0D /* Quesiti di Elettromagnetismo_Esercizi.pdf */; };
+		7A5B55D7189D413D00E9BF0D /* Secondo Principio della Termodinamica_Esercizi.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55C4189D413D00E9BF0D /* Secondo Principio della Termodinamica_Esercizi.pdf */; };
+		7A5B55D8189D413D00E9BF0D /* Temperatura_Esercizi[smallpdf.com].pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55C5189D413D00E9BF0D /* Temperatura_Esercizi[smallpdf.com].pdf */; };
+		7A6F4C6B182CD35F008E31B6 /* Areiformi_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C52182CD35F008E31B6 /* Areiformi_Glossario.pdf */; };
+		7A6F4C6C182CD35F008E31B6 /* Differenza di potenziale_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C53182CD35F008E31B6 /* Differenza di potenziale_Glossario.pdf */; };
+		7A6F4C6D182CD35F008E31B6 /* Dipoli elettrici_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C54182CD35F008E31B6 /* Dipoli elettrici_Glossario.pdf */; };
+		7A6F4C6E182CD35F008E31B6 /* Ebollizione e evaporazione_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C55182CD35F008E31B6 /* Ebollizione e evaporazione_Glossario.pdf */; };
+		7A6F4C6F182CD35F008E31B6 /* Impulso e Quantità di moto_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C56182CD35F008E31B6 /* Impulso e Quantità di moto_Glossario.pdf */; };
+		7A6F4C70182CD35F008E31B6 /* Legge di Biot-Savart_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C57182CD35F008E31B6 /* Legge di Biot-Savart_Glossario.pdf */; };
+		7A6F4C71182CD35F008E31B6 /* Linee di campo_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C58182CD35F008E31B6 /* Linee di campo_Glossario.pdf */; };
+		7A6F4C72182CD35F008E31B6 /* Moto circolare uniforme_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C59182CD35F008E31B6 /* Moto circolare uniforme_Glossario.pdf */; };
+		7A6F4C73182CD35F008E31B6 /* Moto parabolico_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C5A182CD35F008E31B6 /* Moto parabolico_Glossario.pdf */; };
+		7A6F4C74182CD35F008E31B6 /* Moto rettilineo uniforme_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C5B182CD35F008E31B6 /* Moto rettilineo uniforme_Glossario.pdf */; };
+		7A6F4C75182CD35F008E31B6 /* Moto rettilineo uniformemente accelerato_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C5C182CD35F008E31B6 /* Moto rettilineo uniformemente accelerato_Glossario.pdf */; };
+		7A6F4C76182CD35F008E31B6 /* Onde stazionarie_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C5D182CD35F008E31B6 /* Onde stazionarie_Glossario.pdf */; };
+		7A6F4C77182CD35F008E31B6 /* Potenziale di estrazione_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C5E182CD35F008E31B6 /* Potenziale di estrazione_Glossario.pdf */; };
+		7A6F4C78182CD35F008E31B6 /* Primo principio della termodinamica_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C5F182CD35F008E31B6 /* Primo principio della termodinamica_Glossario.pdf */; };
+		7A6F4C79182CD35F008E31B6 /* Principi di Kirchhoff_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C60182CD35F008E31B6 /* Principi di Kirchhoff_Glossario.pdf */; };
+		7A6F4C7A182CD35F008E31B6 /* Principio di relatività di Einstein_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C61182CD35F008E31B6 /* Principio di relatività di Einstein_Glossario.pdf */; };
+		7A6F4C7B182CD35F008E31B6 /* Principio zero_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C62182CD35F008E31B6 /* Principio zero_Glossario.pdf */; };
+		7A6F4C7C182CD35F008E31B6 /* Secondo principio della termodinamica (Kelvin e Clausius)_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C63182CD35F008E31B6 /* Secondo principio della termodinamica (Kelvin e Clausius)_Glossario.pdf */; };
+		7A6F4C7D182CD35F008E31B6 /* Superconduttività_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C64182CD35F008E31B6 /* Superconduttività_Glossario.pdf */; };
+		7A6F4C7E182CD35F008E31B6 /* Teorema di Ampère_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C65182CD35F008E31B6 /* Teorema di Ampère_Glossario.pdf */; };
+		7A6F4C7F182CD35F008E31B6 /* Teorema di Carnot_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C66182CD35F008E31B6 /* Teorema di Carnot_Glossario.pdf */; };
+		7A6F4C80182CD35F008E31B6 /* Teorema di Gauss per il campo elettrico_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C67182CD35F008E31B6 /* Teorema di Gauss per il campo elettrico_Glossario.pdf */; };
+		7A6F4C81182CD35F008E31B6 /* Teorema di Gauss per il campo magnetico_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C68182CD35F008E31B6 /* Teorema di Gauss per il campo magnetico_Glossario.pdf */; };
+		7A6F4C82182CD35F008E31B6 /* Terza legge della dinamica_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C69182CD35F008E31B6 /* Terza legge della dinamica_Glossario.pdf */; };
+		7A6F4C83182CD35F008E31B6 /* Velocità di fuga_Glossario.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C6A182CD35F008E31B6 /* Velocità di fuga_Glossario.pdf */; };
+		7A6F4C9B182CD3F4008E31B6 /* Attrito - Moti rotazionali - Momento d'inerzia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C85182CD3F4008E31B6 /* Attrito - Moti rotazionali - Momento d'inerzia.pdf */; };
+		7A6F4C9C182CD3F4008E31B6 /* Campi magnetici - Corrente.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C86182CD3F4008E31B6 /* Campi magnetici - Corrente.pdf */; };
+		7A6F4C9D182CD3F4008E31B6 /* Cariche elettriche - Dipoli - Condensatori.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C87182CD3F4008E31B6 /* Cariche elettriche - Dipoli - Condensatori.pdf */; };
+		7A6F4C9E182CD3F4008E31B6 /* Corrente - Campi magnetici - Campi elettrici.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C88182CD3F4008E31B6 /* Corrente - Campi magnetici - Campi elettrici.pdf */; };
+		7A6F4C9F182CD3F4008E31B6 /* Corrente - Campi magnetici - Differenza di potenziale.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C89182CD3F4008E31B6 /* Corrente - Campi magnetici - Differenza di potenziale.pdf */; };
+		7A6F4CA0182CD3F4008E31B6 /* Corrente - Cariche elettriche - Campi magnetici - Campi elettrici.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C8A182CD3F4008E31B6 /* Corrente - Cariche elettriche - Campi magnetici - Campi elettrici.pdf */; };
+		7A6F4CA1182CD3F4008E31B6 /* Corrente - Condensatori - Campi magnetici.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C8B182CD3F4008E31B6 /* Corrente - Condensatori - Campi magnetici.pdf */; };
+		7A6F4CA2182CD3F4008E31B6 /* Dinamica - Piano inclinato - Moti.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C8C182CD3F4008E31B6 /* Dinamica - Piano inclinato - Moti.pdf */; };
+		7A6F4CA3182CD3F4008E31B6 /* Energia cinetica - Energia potenziale - Molle - Moti.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C8D182CD3F4008E31B6 /* Energia cinetica - Energia potenziale - Molle - Moti.pdf */; };
+		7A6F4CA4182CD3F4008E31B6 /* Energia cinetica - Energia potenziale - Molle.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C8E182CD3F4008E31B6 /* Energia cinetica - Energia potenziale - Molle.pdf */; };
+		7A6F4CA5182CD3F4008E31B6 /* Gas - Temperatura - Termodinamica - Macchine termiche.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C8F182CD3F4008E31B6 /* Gas - Temperatura - Termodinamica - Macchine termiche.pdf */; };
+		7A6F4CA6182CD3F4008E31B6 /* Gas - Termodinamica - Onde sonore.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C90182CD3F4008E31B6 /* Gas - Termodinamica - Onde sonore.pdf */; };
+		7A6F4CA7182CD3F4008E31B6 /* Gas - Termodinamica - Temperatura.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C91182CD3F4008E31B6 /* Gas - Termodinamica - Temperatura.pdf */; };
+		7A6F4CA8182CD3F4008E31B6 /* Gravitazione - Moti.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C92182CD3F4008E31B6 /* Gravitazione - Moti.pdf */; };
+		7A6F4CA9182CD3F4008E31B6 /* Momento d'inerzia - Dinamica liquidi - Piano inclinato.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C93182CD3F4008E31B6 /* Momento d'inerzia - Dinamica liquidi - Piano inclinato.pdf */; };
+		7A6F4CAA182CD3F4008E31B6 /* Onde sonore - Onde stazionarie - Frequenza.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C94182CD3F4008E31B6 /* Onde sonore - Onde stazionarie - Frequenza.pdf */; };
+		7A6F4CAB182CD3F4008E31B6 /* Piano inclinato - Quantità di moto - Attrito - Dinamica.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C95182CD3F4008E31B6 /* Piano inclinato - Quantità di moto - Attrito - Dinamica.pdf */; };
+		7A6F4CAC182CD3F4008E31B6 /* Simulazione Terza Prova.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C96182CD3F4008E31B6 /* Simulazione Terza Prova.pdf */; };
+		7A6F4CAD182CD3F4008E31B6 /* Sistemi di riferimento - Piano inclinato - Seconda legge della dinamica.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C97182CD3F4008E31B6 /* Sistemi di riferimento - Piano inclinato - Seconda legge della dinamica.pdf */; };
+		7A6F4CAE182CD3F4008E31B6 /* Statica liquidi - Gravitazione - Moti.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C98182CD3F4008E31B6 /* Statica liquidi - Gravitazione - Moti.pdf */; };
+		7A6F4CAF182CD3F4008E31B6 /* Termodinamica - Entropia - Macchine termiche.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C99182CD3F4008E31B6 /* Termodinamica - Entropia - Macchine termiche.pdf */; };
+		7A6F4CB0182CD3F4008E31B6 /* Urti - Moti - Molle.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F4C9A182CD3F4008E31B6 /* Urti - Moti - Molle.pdf */; };
+		7AA154F7183135B30041D004 /* giro.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AA154F6183135B30041D004 /* giro.png */; };
+		7AA154F9183135B80041D004 /* giro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AA154F8183135B80041D004 /* giro@2x.png */; };
+		7AA154FB183135C10041D004 /* pianoinclinato.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AA154FA183135C10041D004 /* pianoinclinato.png */; };
+		7AA154FD183135C50041D004 /* pianoinclinato@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AA154FC183135C50041D004 /* pianoinclinato@2x.png */; };
+		7AA3ECF4183BC4450009BA79 /* SBGiroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA3ECF3183BC4450009BA79 /* SBGiroViewController.m */; };
+		7AF2E0D7180727B80035C17E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF2E0D6180727B80035C17E /* Foundation.framework */; };
+		7AF2E0D9180727B80035C17E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF2E0D8180727B80035C17E /* CoreGraphics.framework */; };
+		7AF2E0DB180727B80035C17E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF2E0DA180727B80035C17E /* UIKit.framework */; };
+		7AF2E0E1180727B80035C17E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E0DF180727B80035C17E /* InfoPlist.strings */; };
+		7AF2E0E3180727B80035C17E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2E0E2180727B80035C17E /* main.m */; };
+		7AF2E0E7180727B80035C17E /* SBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2E0E6180727B80035C17E /* SBAppDelegate.m */; };
+		7AF2E0EA180727B80035C17E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E0E8180727B80035C17E /* Main_iPhone.storyboard */; };
+		7AF2E0F0180727B80035C17E /* SBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2E0EF180727B80035C17E /* SBViewController.m */; };
+		7AF2E0F2180727B80035C17E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E0F1180727B80035C17E /* Images.xcassets */; };
+		7AF2E0F9180727B80035C17E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF2E0F8180727B80035C17E /* XCTest.framework */; };
+		7AF2E0FA180727B80035C17E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF2E0D6180727B80035C17E /* Foundation.framework */; };
+		7AF2E0FB180727B80035C17E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF2E0DA180727B80035C17E /* UIKit.framework */; };
+		7AF2E103180727B80035C17E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E101180727B80035C17E /* InfoPlist.strings */; };
+		7AF2E105180727B80035C17E /* Pocket_PhysicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2E104180727B80035C17E /* Pocket_PhysicsTests.m */; };
+		7AF2E163181598F00035C17E /* bottone.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E15C181598F00035C17E /* bottone.png */; };
+		7AF2E164181598F00035C17E /* cover4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E15D181598F00035C17E /* cover4.png */; };
+		7AF2E165181598F00035C17E /* cover5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E15E181598F00035C17E /* cover5.png */; };
+		7AF2E167181598F00035C17E /* iconfis120.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E160181598F00035C17E /* iconfis120.png */; };
+		7AF2E168181598F00035C17E /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E161181598F00035C17E /* info.png */; };
+		7AF2E169181598F00035C17E /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E162181598F00035C17E /* settings.png */; };
+		7AF2E16B181599FD0035C17E /* abc.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E16A181599FD0035C17E /* abc.png */; };
+		7AF2E16D18159A030035C17E /* abc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E16C18159A030035C17E /* abc@2x.png */; };
+		7AF2E16F18159A0B0035C17E /* argomenti2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E16E18159A0B0035C17E /* argomenti2.png */; };
+		7AF2E17118159A170035C17E /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E17018159A170035C17E /* clock.png */; };
+		7AF2E17318159A1D0035C17E /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E17218159A1D0035C17E /* clock@2x.png */; };
+		7AF2E17518159A3B0035C17E /* utility.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E17418159A3B0035C17E /* utility.png */; };
+		7AF2E17718159A400035C17E /* utility@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E17618159A400035C17E /* utility@2x.png */; };
+		7AF2E17918159A4C0035C17E /* preferiti@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E17818159A4C0035C17E /* preferiti@2x.png */; };
+		7AF2E17B181718370035C17E /* convertitore@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E17A181718370035C17E /* convertitore@2x.png */; };
+		7AF2E17D181718400035C17E /* formulario@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E17C181718400035C17E /* formulario@2x.png */; };
+		7AF2E17F181718480035C17E /* glossario@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E17E181718480035C17E /* glossario@2x.png */; };
+		7AF2E181181718590035C17E /* google@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E180181718590035C17E /* google@2x.png */; };
+		7AF2E183181718630035C17E /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E182181718630035C17E /* twitter@2x.png */; };
+		7AF2E185181718790035C17E /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E184181718790035C17E /* logo@2x.png */; };
+		7AF2E18818171B280035C17E /* SBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2E18718171B280035C17E /* SBTableViewController.m */; };
+		7AF2E1E418183EB50035C17E /* provacompito@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2E1E318183EB50035C17E /* provacompito@2x.png */; };
+		7AF2E1E7181C49B00035C17E /* SBConvertitoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2E1E6181C49B00035C17E /* SBConvertitoreViewController.m */; };
+		7AFE1ECE188C48AF008CC990 /* bottoneipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1EAE188C48AE008CC990 /* bottoneipad@2x.png */; };
+		7AFE1ECF188C48AF008CC990 /* compito.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1EAF188C48AE008CC990 /* compito.png */; };
+		7AFE1ED0188C48AF008CC990 /* compito@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1EB0188C48AE008CC990 /* compito@2x.png */; };
+		7AFE1ED1188C48AF008CC990 /* fbipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1EB1188C48AE008CC990 /* fbipad.png */; };
+		7AFE1ED2188C48AF008CC990 /* fbipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1EB2188C48AE008CC990 /* fbipad@2x.png */; };
+		7AFE1ED9188C48AF008CC990 /* giroipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1EB9188C48AF008CC990 /* giroipad.png */; };
+		7AFE1EDA188C48AF008CC990 /* giroipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1EBA188C48AF008CC990 /* giroipad@2x.png */; };
+		7AFE1EDD188C48AF008CC990 /* googleipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1EBD188C48AF008CC990 /* googleipad.png */; };
+		7AFE1EDE188C48AF008CC990 /* googleipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1EBE188C48AF008CC990 /* googleipad@2x.png */; };
+		7AFE1EDF188C48AF008CC990 /* infoipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1EBF188C48AF008CC990 /* infoipad.png */; };
+		7AFE1EE0188C48AF008CC990 /* infoipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1EC0188C48AF008CC990 /* infoipad@2x.png */; };
+		7AFE1EE1188C48AF008CC990 /* linksipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1EC1188C48AF008CC990 /* linksipad.png */; };
+		7AFE1EE2188C48AF008CC990 /* linksipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1EC2188C48AF008CC990 /* linksipad@2x.png */; };
+		7AFE1EE3188C48AF008CC990 /* logoipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1EC3188C48AF008CC990 /* logoipad.png */; };
+		7AFE1EE4188C48AF008CC990 /* logoipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1EC4188C48AF008CC990 /* logoipad@2x.png */; };
+		7AFE1EE7188C48AF008CC990 /* settingsipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1EC7188C48AF008CC990 /* settingsipad.png */; };
+		7AFE1EE8188C48AF008CC990 /* settingsipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1EC8188C48AF008CC990 /* settingsipad@2x.png */; };
+		7AFE1EE9188C48AF008CC990 /* twitteripad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1EC9188C48AF008CC990 /* twitteripad.png */; };
+		7AFE1EEA188C48AF008CC990 /* twitteripad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1ECA188C48AF008CC990 /* twitteripad@2x.png */; };
+		7AFE1EEB188C48AF008CC990 /* utilityipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1ECB188C48AF008CC990 /* utilityipad.png */; };
+		7AFE1EEC188C48AF008CC990 /* vfipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1ECC188C48AF008CC990 /* vfipad.png */; };
+		7AFE1EED188C48AF008CC990 /* vfipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE1ECD188C48AF008CC990 /* vfipad@2x.png */; };
+		B2272CD9183FE27E005E5F1B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2272CD0183FE27D005E5F1B /* Default-568h@2x.png */; };
+		B2272CDA183FE27E005E5F1B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B2272CD1183FE27D005E5F1B /* Default.png */; };
+		B2272CDB183FE27E005E5F1B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2272CD2183FE27D005E5F1B /* Default@2x.png */; };
+		B2272CDC183FE27E005E5F1B /* fis29.png in Resources */ = {isa = PBXBuildFile; fileRef = B2272CD3183FE27D005E5F1B /* fis29.png */; };
+		B2272CDD183FE27E005E5F1B /* fis57.png in Resources */ = {isa = PBXBuildFile; fileRef = B2272CD4183FE27D005E5F1B /* fis57.png */; };
+		B2272CDE183FE27E005E5F1B /* fis58.png in Resources */ = {isa = PBXBuildFile; fileRef = B2272CD5183FE27E005E5F1B /* fis58.png */; };
+		B2272CDF183FE27E005E5F1B /* fis80.png in Resources */ = {isa = PBXBuildFile; fileRef = B2272CD6183FE27E005E5F1B /* fis80.png */; };
+		B2272CE0183FE27E005E5F1B /* fis114.png in Resources */ = {isa = PBXBuildFile; fileRef = B2272CD7183FE27E005E5F1B /* fis114.png */; };
+		B2272CE1183FE27E005E5F1B /* fis120.png in Resources */ = {isa = PBXBuildFile; fileRef = B2272CD8183FE27E005E5F1B /* fis120.png */; };
+		B2272CE4183FE29D005E5F1B /* SBVelocitaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2272CE3183FE29D005E5F1B /* SBVelocitaViewController.m */; };
+		B2272CEF183FF895005E5F1B /* SBPianoInclinatoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2272CEE183FF895005E5F1B /* SBPianoInclinatoViewController.m */; };
+		B22BC4861821956C000A9CA4 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = B22BC4841821956C000A9CA4 /* facebook.png */; };
+		B22BC4871821956C000A9CA4 /* facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22BC4851821956C000A9CA4 /* facebook@2x.png */; };
+		B22BC48A1821A63E000A9CA4 /* convert.png in Resources */ = {isa = PBXBuildFile; fileRef = B22BC4881821A63E000A9CA4 /* convert.png */; };
+		B22BC48B1821A63E000A9CA4 /* swap.png in Resources */ = {isa = PBXBuildFile; fileRef = B22BC4891821A63E000A9CA4 /* swap.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AF2E0FC180727B80035C17E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AF2E0CB180727B80035C17E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AF2E0D2180727B80035C17E;
+			remoteInfo = "Pocket Physics";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A0892BE1844B52500BCDF31 /* velocitafuga@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "velocitafuga@2x.png"; sourceTree = "<group>"; };
+		7A0892C01844B52A00BCDF31 /* velocitafuga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = velocitafuga.png; sourceTree = "<group>"; };
+		7A0892C21844B55500BCDF31 /* girodellamorte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girodellamorte.png; sourceTree = "<group>"; };
+		7A0892C41844B55C00BCDF31 /* girodellamorte@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "girodellamorte@2x.png"; sourceTree = "<group>"; };
+		7A0892C61844B6E000BCDF31 /* link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = link.png; sourceTree = "<group>"; };
+		7A0892C81844B6E900BCDF31 /* link@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "link@2x.png"; sourceTree = "<group>"; };
+		7A0892CA1844B95700BCDF31 /* divisorio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = divisorio.png; sourceTree = "<group>"; };
+		7A1BF46318A543FE0042F872 /* coveriPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coveriPad.png; sourceTree = "<group>"; };
+		7A1BF46518A55D170042F872 /* fis40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fis40.png; sourceTree = "<group>"; };
+		7A1BF46718A55D1E0042F872 /* fis50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fis50.png; sourceTree = "<group>"; };
+		7A1BF46918A55D270042F872 /* fis72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fis72.png; sourceTree = "<group>"; };
+		7A1BF46B18A55D2D0042F872 /* fis76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fis76.png; sourceTree = "<group>"; };
+		7A1BF46D18A55D380042F872 /* fis100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fis100.png; sourceTree = "<group>"; };
+		7A1BF46F18A55D450042F872 /* fis144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fis144.png; sourceTree = "<group>"; };
+		7A1BF47118A55D4A0042F872 /* fis152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fis152.png; sourceTree = "<group>"; };
+		7A1BF47318A55D4F0042F872 /* fis1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fis1024.png; sourceTree = "<group>"; };
+		7A1BF47518A61DAE0042F872 /* giro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "giro@2x.png"; sourceTree = "<group>"; };
+		7A1BF47718A61DB80042F872 /* giro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giro.png; sourceTree = "<group>"; };
+		7A1BF47918A61DC00042F872 /* fuga@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fuga@2x.png"; sourceTree = "<group>"; };
+		7A1BF47B18A61DC70042F872 /* fuga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuga.png; sourceTree = "<group>"; };
+		7A1BF47D18A61DCF0042F872 /* formulario@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "formulario@2x.png"; sourceTree = "<group>"; };
+		7A1BF47F18A61DD70042F872 /* formulario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = formulario.png; sourceTree = "<group>"; };
+		7A1BF48118A61DE40042F872 /* glossario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glossario.png; sourceTree = "<group>"; };
+		7A1BF48318A61DEB0042F872 /* glossario@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glossario@2x.png"; sourceTree = "<group>"; };
+		7A1BF48518A61DF60042F872 /* pianoinclinato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pianoinclinato.png; sourceTree = "<group>"; };
+		7A1BF48718A61DFC0042F872 /* pianoinclinato@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pianoinclinato@2x.png"; sourceTree = "<group>"; };
+		7A2053461899A70500F7014F /* SBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBNavigationController.h; sourceTree = "<group>"; };
+		7A2053471899A70500F7014F /* SBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBNavigationController.m; sourceTree = "<group>"; };
+		7A20D6A018201255001710FF /* Cinematica_Formulario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Cinematica_Formulario.pdf; sourceTree = "<group>"; };
+		7A20D6A118201255001710FF /* Costanti fisiche_Formulario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Costanti fisiche_Formulario.pdf"; sourceTree = "<group>"; };
+		7A20D6A218201255001710FF /* Elasticità_Formulario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Elasticità_Formulario.pdf"; sourceTree = "<group>"; };
+		7A20D6A318201255001710FF /* Energia_Formulario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Energia_Formulario.pdf; sourceTree = "<group>"; };
+		7A20D6A418201255001710FF /* Fluidi_Formulario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Fluidi_Formulario.pdf; sourceTree = "<group>"; };
+		7A20D6A518201255001710FF /* Forze_Formulario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Forze_Formulario.pdf; sourceTree = "<group>"; };
+		7A20D6A618201255001710FF /* Impulso e Momento angolare_Formulario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Impulso e Momento angolare_Formulario.pdf"; sourceTree = "<group>"; };
+		7A20D6A718201255001710FF /* Onde_Formulario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Onde_Formulario.pdf; sourceTree = "<group>"; };
+		7A20D6A818201255001710FF /* Sistemi a più corpi_Formulario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Sistemi a più corpi_Formulario.pdf"; sourceTree = "<group>"; };
+		7A20D6A918201255001710FF /* Termodinamica_Formulario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Termodinamica_Formulario.pdf; sourceTree = "<group>"; };
+		7A20D6AA18201255001710FF /* Urti_Formulario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Urti_Formulario.pdf; sourceTree = "<group>"; };
+		7A20D6AB18201255001710FF /* Vettori_Formulario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Vettori_Formulario.pdf; sourceTree = "<group>"; };
+		7A20D6BD1826E89C001710FF /* picker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picker.png; sourceTree = "<group>"; };
+		7A4208A21840E68700381680 /* pianoinclinatodx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pianoinclinatodx.png; sourceTree = "<group>"; };
+		7A4208A41840E68C00381680 /* pianoinclinatodx@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pianoinclinatodx@2x.png"; sourceTree = "<group>"; };
+		7A4208A61840E69500381680 /* pianoinclinatonull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pianoinclinatonull.png; sourceTree = "<group>"; };
+		7A4208A81840E69C00381680 /* pianoinclinatonull@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pianoinclinatonull@2x.png"; sourceTree = "<group>"; };
+		7A4208AA1840E6A100381680 /* pianoinclinatosx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pianoinclinatosx.png; sourceTree = "<group>"; };
+		7A4208AC1840E6A600381680 /* pianoinclinatosx@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pianoinclinatosx@2x.png"; sourceTree = "<group>"; };
+		7A4208B218424C5300381680 /* velocita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = velocita.png; sourceTree = "<group>"; };
+		7A4208B418424C5800381680 /* velocita@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "velocita@2x.png"; sourceTree = "<group>"; };
+		7A48B25E184BCF6800254527 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		7A5B5588189D412500E9BF0D /* Bibliografia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Bibliografia.pdf; path = "Dispense Compresse/Bibliografia.pdf"; sourceTree = "<group>"; };
+		7A5B5589189D412500E9BF0D /* Campo Elettrico.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Campo Elettrico.pdf"; sourceTree = "<group>"; };
+		7A5B558A189D412500E9BF0D /* Campo Magnetico.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Campo Magnetico.pdf"; sourceTree = "<group>"; };
+		7A5B558B189D412500E9BF0D /* Corrente Elettrica.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Corrente Elettrica.pdf"; sourceTree = "<group>"; };
+		7A5B558C189D412500E9BF0D /* Dinamica Rotazionale.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Dinamica Rotazionale.pdf"; sourceTree = "<group>"; };
+		7A5B558D189D412500E9BF0D /* Energia Potenziale e Conservazione dell'Energia Meccanica.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Energia Potenziale e Conservazione dell'Energia Meccanica.pdf"; sourceTree = "<group>"; };
+		7A5B558E189D412500E9BF0D /* Equazioni di Maxwell.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Equazioni di Maxwell.pdf"; sourceTree = "<group>"; };
+		7A5B558F189D412500E9BF0D /* Fenomeni Quantistici.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fenomeni Quantistici.pdf"; sourceTree = "<group>"; };
+		7A5B5590189D412500E9BF0D /* Gravitazione.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Gravitazione.pdf; sourceTree = "<group>"; };
+		7A5B5591189D412500E9BF0D /* Impulso e Quantità di Moto.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Impulso e Quantità di Moto.pdf"; sourceTree = "<group>"; };
+		7A5B5592189D412500E9BF0D /* Induzione Elettromagnetica.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Induzione Elettromagnetica.pdf"; sourceTree = "<group>"; };
+		7A5B5593189D412500E9BF0D /* Lavoro ed Energia Cinetica.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lavoro ed Energia Cinetica.pdf"; sourceTree = "<group>"; };
+		7A5B5594189D412500E9BF0D /* Meccanica dei Fluidi.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Meccanica dei Fluidi.pdf"; sourceTree = "<group>"; };
+		7A5B5595189D412500E9BF0D /* Modello Cinetico dei Gas e Energia Interna.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Modello Cinetico dei Gas e Energia Interna.pdf"; sourceTree = "<group>"; };
+		7A5B5596189D412500E9BF0D /* Moti Piani e Sistemi di Riferimento non Inerziali.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Moti Piani e Sistemi di Riferimento non Inerziali.pdf"; sourceTree = "<group>"; };
+		7A5B5597189D412500E9BF0D /* Moti Rettilinei e Forze Costanti.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Moti Rettilinei e Forze Costanti.pdf"; sourceTree = "<group>"; };
+		7A5B5598189D412500E9BF0D /* Onde.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Onde.pdf; sourceTree = "<group>"; };
+		7A5B5599189D412500E9BF0D /* Primo Principio della Termodinamica.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Primo Principio della Termodinamica.pdf"; sourceTree = "<group>"; };
+		7A5B559A189D412500E9BF0D /* Secondo Principio della Termodinamica.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Secondo Principio della Termodinamica.pdf"; sourceTree = "<group>"; };
+		7A5B559B189D412500E9BF0D /* Temperatura.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Temperatura.pdf; sourceTree = "<group>"; };
+		7A5B559C189D412500E9BF0D /* Teoria della Relativita  Speciale.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Teoria della Relativita  Speciale.pdf"; sourceTree = "<group>"; };
+		7A5B55B3189D413D00E9BF0D /* Campo Elettrico_Esercizi.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Campo Elettrico_Esercizi.pdf"; sourceTree = "<group>"; };
+		7A5B55B4189D413D00E9BF0D /* Campo Magnetico_Esercizi.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Campo Magnetico_Esercizi.pdf"; sourceTree = "<group>"; };
+		7A5B55B5189D413D00E9BF0D /* Corrente Elettrica_Esercizi.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Corrente Elettrica_Esercizi.pdf"; sourceTree = "<group>"; };
+		7A5B55B6189D413D00E9BF0D /* Dinamica Rotazionale_Esercizi.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Dinamica Rotazionale_Esercizi.pdf"; sourceTree = "<group>"; };
+		7A5B55B7189D413D00E9BF0D /* Energia Potenziale e Conservazione_Esercizi.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Energia Potenziale e Conservazione_Esercizi.pdf"; sourceTree = "<group>"; };
+		7A5B55B8189D413D00E9BF0D /* Equazioni di Maxwell_Esercizi.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Equazioni di Maxwell_Esercizi.pdf"; sourceTree = "<group>"; };
+		7A5B55B9189D413D00E9BF0D /* Gravitazione_Esercizi.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Gravitazione_Esercizi.pdf; sourceTree = "<group>"; };
+		7A5B55BA189D413D00E9BF0D /* Impulso e Quantita  di Moto_Esercizi.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Impulso e Quantita  di Moto_Esercizi.pdf"; sourceTree = "<group>"; };
+		7A5B55BB189D413D00E9BF0D /* Induzione Elettromagnetica_Esercizi.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Induzione Elettromagnetica_Esercizi.pdf"; sourceTree = "<group>"; };
+		7A5B55BC189D413D00E9BF0D /* Lavoro ed Energia Cinetica_Esercizi[smallpdf.com].pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lavoro ed Energia Cinetica_Esercizi[smallpdf.com].pdf"; sourceTree = "<group>"; };
+		7A5B55BD189D413D00E9BF0D /* Meccanica dei Fluidi_Esercizi[smallpdf.com].pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Meccanica dei Fluidi_Esercizi[smallpdf.com].pdf"; sourceTree = "<group>"; };
+		7A5B55BE189D413D00E9BF0D /* Modello cinetico dei Gas e Energia Interna_Esercizi[smallpdf.com].pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Modello cinetico dei Gas e Energia Interna_Esercizi[smallpdf.com].pdf"; sourceTree = "<group>"; };
+		7A5B55BF189D413D00E9BF0D /* Moti Piani e Sistemi di Riferimento non Inerziali_Esercizi.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Moti Piani e Sistemi di Riferimento non Inerziali_Esercizi.pdf"; sourceTree = "<group>"; };
+		7A5B55C0189D413D00E9BF0D /* Moti Rettilinei e Forze Costanti_Esercizi.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Moti Rettilinei e Forze Costanti_Esercizi.pdf"; sourceTree = "<group>"; };
+		7A5B55C1189D413D00E9BF0D /* Onde_Esercizi.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Onde_Esercizi.pdf; sourceTree = "<group>"; };
+		7A5B55C2189D413D00E9BF0D /* Primo Principio della Termodinamica_Esercizi.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Primo Principio della Termodinamica_Esercizi.pdf"; sourceTree = "<group>"; };
+		7A5B55C3189D413D00E9BF0D /* Quesiti di Elettromagnetismo_Esercizi.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Quesiti di Elettromagnetismo_Esercizi.pdf"; sourceTree = "<group>"; };
+		7A5B55C4189D413D00E9BF0D /* Secondo Principio della Termodinamica_Esercizi.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Secondo Principio della Termodinamica_Esercizi.pdf"; sourceTree = "<group>"; };
+		7A5B55C5189D413D00E9BF0D /* Temperatura_Esercizi[smallpdf.com].pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Temperatura_Esercizi[smallpdf.com].pdf"; sourceTree = "<group>"; };
+		7A6F4C52182CD35F008E31B6 /* Areiformi_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Areiformi_Glossario.pdf; sourceTree = "<group>"; };
+		7A6F4C53182CD35F008E31B6 /* Differenza di potenziale_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Differenza di potenziale_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C54182CD35F008E31B6 /* Dipoli elettrici_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Dipoli elettrici_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C55182CD35F008E31B6 /* Ebollizione e evaporazione_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Ebollizione e evaporazione_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C56182CD35F008E31B6 /* Impulso e Quantità di moto_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Impulso e Quantità di moto_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C57182CD35F008E31B6 /* Legge di Biot-Savart_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Legge di Biot-Savart_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C58182CD35F008E31B6 /* Linee di campo_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Linee di campo_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C59182CD35F008E31B6 /* Moto circolare uniforme_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Moto circolare uniforme_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C5A182CD35F008E31B6 /* Moto parabolico_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Moto parabolico_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C5B182CD35F008E31B6 /* Moto rettilineo uniforme_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Moto rettilineo uniforme_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C5C182CD35F008E31B6 /* Moto rettilineo uniformemente accelerato_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Moto rettilineo uniformemente accelerato_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C5D182CD35F008E31B6 /* Onde stazionarie_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Onde stazionarie_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C5E182CD35F008E31B6 /* Potenziale di estrazione_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Potenziale di estrazione_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C5F182CD35F008E31B6 /* Primo principio della termodinamica_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Primo principio della termodinamica_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C60182CD35F008E31B6 /* Principi di Kirchhoff_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Principi di Kirchhoff_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C61182CD35F008E31B6 /* Principio di relatività di Einstein_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Principio di relatività di Einstein_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C62182CD35F008E31B6 /* Principio zero_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Principio zero_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C63182CD35F008E31B6 /* Secondo principio della termodinamica (Kelvin e Clausius)_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Secondo principio della termodinamica (Kelvin e Clausius)_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C64182CD35F008E31B6 /* Superconduttività_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Superconduttività_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C65182CD35F008E31B6 /* Teorema di Ampère_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Teorema di Ampère_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C66182CD35F008E31B6 /* Teorema di Carnot_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Teorema di Carnot_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C67182CD35F008E31B6 /* Teorema di Gauss per il campo elettrico_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Teorema di Gauss per il campo elettrico_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C68182CD35F008E31B6 /* Teorema di Gauss per il campo magnetico_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Teorema di Gauss per il campo magnetico_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C69182CD35F008E31B6 /* Terza legge della dinamica_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Terza legge della dinamica_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C6A182CD35F008E31B6 /* Velocità di fuga_Glossario.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Velocità di fuga_Glossario.pdf"; sourceTree = "<group>"; };
+		7A6F4C85182CD3F4008E31B6 /* Attrito - Moti rotazionali - Momento d'inerzia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Attrito - Moti rotazionali - Momento d'inerzia.pdf"; sourceTree = "<group>"; };
+		7A6F4C86182CD3F4008E31B6 /* Campi magnetici - Corrente.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Campi magnetici - Corrente.pdf"; sourceTree = "<group>"; };
+		7A6F4C87182CD3F4008E31B6 /* Cariche elettriche - Dipoli - Condensatori.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Cariche elettriche - Dipoli - Condensatori.pdf"; sourceTree = "<group>"; };
+		7A6F4C88182CD3F4008E31B6 /* Corrente - Campi magnetici - Campi elettrici.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Corrente - Campi magnetici - Campi elettrici.pdf"; sourceTree = "<group>"; };
+		7A6F4C89182CD3F4008E31B6 /* Corrente - Campi magnetici - Differenza di potenziale.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Corrente - Campi magnetici - Differenza di potenziale.pdf"; sourceTree = "<group>"; };
+		7A6F4C8A182CD3F4008E31B6 /* Corrente - Cariche elettriche - Campi magnetici - Campi elettrici.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Corrente - Cariche elettriche - Campi magnetici - Campi elettrici.pdf"; sourceTree = "<group>"; };
+		7A6F4C8B182CD3F4008E31B6 /* Corrente - Condensatori - Campi magnetici.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Corrente - Condensatori - Campi magnetici.pdf"; sourceTree = "<group>"; };
+		7A6F4C8C182CD3F4008E31B6 /* Dinamica - Piano inclinato - Moti.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Dinamica - Piano inclinato - Moti.pdf"; sourceTree = "<group>"; };
+		7A6F4C8D182CD3F4008E31B6 /* Energia cinetica - Energia potenziale - Molle - Moti.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Energia cinetica - Energia potenziale - Molle - Moti.pdf"; sourceTree = "<group>"; };
+		7A6F4C8E182CD3F4008E31B6 /* Energia cinetica - Energia potenziale - Molle.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Energia cinetica - Energia potenziale - Molle.pdf"; sourceTree = "<group>"; };
+		7A6F4C8F182CD3F4008E31B6 /* Gas - Temperatura - Termodinamica - Macchine termiche.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Gas - Temperatura - Termodinamica - Macchine termiche.pdf"; sourceTree = "<group>"; };
+		7A6F4C90182CD3F4008E31B6 /* Gas - Termodinamica - Onde sonore.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Gas - Termodinamica - Onde sonore.pdf"; sourceTree = "<group>"; };
+		7A6F4C91182CD3F4008E31B6 /* Gas - Termodinamica - Temperatura.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Gas - Termodinamica - Temperatura.pdf"; sourceTree = "<group>"; };
+		7A6F4C92182CD3F4008E31B6 /* Gravitazione - Moti.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Gravitazione - Moti.pdf"; sourceTree = "<group>"; };
+		7A6F4C93182CD3F4008E31B6 /* Momento d'inerzia - Dinamica liquidi - Piano inclinato.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Momento d'inerzia - Dinamica liquidi - Piano inclinato.pdf"; sourceTree = "<group>"; };
+		7A6F4C94182CD3F4008E31B6 /* Onde sonore - Onde stazionarie - Frequenza.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Onde sonore - Onde stazionarie - Frequenza.pdf"; sourceTree = "<group>"; };
+		7A6F4C95182CD3F4008E31B6 /* Piano inclinato - Quantità di moto - Attrito - Dinamica.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Piano inclinato - Quantità di moto - Attrito - Dinamica.pdf"; sourceTree = "<group>"; };
+		7A6F4C96182CD3F4008E31B6 /* Simulazione Terza Prova.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Simulazione Terza Prova.pdf"; sourceTree = "<group>"; };
+		7A6F4C97182CD3F4008E31B6 /* Sistemi di riferimento - Piano inclinato - Seconda legge della dinamica.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Sistemi di riferimento - Piano inclinato - Seconda legge della dinamica.pdf"; sourceTree = "<group>"; };
+		7A6F4C98182CD3F4008E31B6 /* Statica liquidi - Gravitazione - Moti.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Statica liquidi - Gravitazione - Moti.pdf"; sourceTree = "<group>"; };
+		7A6F4C99182CD3F4008E31B6 /* Termodinamica - Entropia - Macchine termiche.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Termodinamica - Entropia - Macchine termiche.pdf"; sourceTree = "<group>"; };
+		7A6F4C9A182CD3F4008E31B6 /* Urti - Moti - Molle.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Urti - Moti - Molle.pdf"; sourceTree = "<group>"; };
+		7AA154F6183135B30041D004 /* giro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giro.png; sourceTree = "<group>"; };
+		7AA154F8183135B80041D004 /* giro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "giro@2x.png"; sourceTree = "<group>"; };
+		7AA154FA183135C10041D004 /* pianoinclinato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pianoinclinato.png; sourceTree = "<group>"; };
+		7AA154FC183135C50041D004 /* pianoinclinato@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pianoinclinato@2x.png"; sourceTree = "<group>"; };
+		7AA3ECF2183BC4450009BA79 /* SBGiroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBGiroViewController.h; sourceTree = "<group>"; };
+		7AA3ECF3183BC4450009BA79 /* SBGiroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBGiroViewController.m; sourceTree = "<group>"; };
+		7AF2E0D3180727B80035C17E /* Pocket Physics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Physics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF2E0D6180727B80035C17E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7AF2E0D8180727B80035C17E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7AF2E0DA180727B80035C17E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7AF2E0DE180727B80035C17E /* Pocket Physics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pocket Physics-Info.plist"; sourceTree = "<group>"; };
+		7AF2E0E0180727B80035C17E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7AF2E0E2180727B80035C17E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AF2E0E4180727B80035C17E /* Pocket Physics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pocket Physics-Prefix.pch"; sourceTree = "<group>"; };
+		7AF2E0E5180727B80035C17E /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
+		7AF2E0E6180727B80035C17E /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
+		7AF2E0E9180727B80035C17E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		7AF2E0EE180727B80035C17E /* SBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBViewController.h; sourceTree = "<group>"; };
+		7AF2E0EF180727B80035C17E /* SBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBViewController.m; sourceTree = "<group>"; };
+		7AF2E0F1180727B80035C17E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7AF2E0F7180727B80035C17E /* Pocket PhysicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pocket PhysicsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF2E0F8180727B80035C17E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7AF2E100180727B80035C17E /* Pocket PhysicsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pocket PhysicsTests-Info.plist"; sourceTree = "<group>"; };
+		7AF2E102180727B80035C17E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7AF2E104180727B80035C17E /* Pocket_PhysicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pocket_PhysicsTests.m; sourceTree = "<group>"; };
+		7AF2E15C181598F00035C17E /* bottone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottone.png; sourceTree = "<group>"; };
+		7AF2E15D181598F00035C17E /* cover4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover4.png; sourceTree = "<group>"; };
+		7AF2E15E181598F00035C17E /* cover5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover5.png; sourceTree = "<group>"; };
+		7AF2E160181598F00035C17E /* iconfis120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconfis120.png; sourceTree = "<group>"; };
+		7AF2E161181598F00035C17E /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		7AF2E162181598F00035C17E /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		7AF2E16A181599FD0035C17E /* abc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abc.png; sourceTree = "<group>"; };
+		7AF2E16C18159A030035C17E /* abc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "abc@2x.png"; sourceTree = "<group>"; };
+		7AF2E16E18159A0B0035C17E /* argomenti2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = argomenti2.png; sourceTree = "<group>"; };
+		7AF2E17018159A170035C17E /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		7AF2E17218159A1D0035C17E /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
+		7AF2E17418159A3B0035C17E /* utility.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utility.png; sourceTree = "<group>"; };
+		7AF2E17618159A400035C17E /* utility@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "utility@2x.png"; sourceTree = "<group>"; };
+		7AF2E17818159A4C0035C17E /* preferiti@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "preferiti@2x.png"; sourceTree = "<group>"; };
+		7AF2E17A181718370035C17E /* convertitore@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "convertitore@2x.png"; sourceTree = "<group>"; };
+		7AF2E17C181718400035C17E /* formulario@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "formulario@2x.png"; sourceTree = "<group>"; };
+		7AF2E17E181718480035C17E /* glossario@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glossario@2x.png"; sourceTree = "<group>"; };
+		7AF2E180181718590035C17E /* google@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google@2x.png"; sourceTree = "<group>"; };
+		7AF2E182181718630035C17E /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter@2x.png"; sourceTree = "<group>"; };
+		7AF2E184181718790035C17E /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		7AF2E18618171B280035C17E /* SBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTableViewController.h; sourceTree = "<group>"; };
+		7AF2E18718171B280035C17E /* SBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTableViewController.m; sourceTree = "<group>"; };
+		7AF2E1E318183EB50035C17E /* provacompito@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "provacompito@2x.png"; sourceTree = "<group>"; };
+		7AF2E1E5181C49B00035C17E /* SBConvertitoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBConvertitoreViewController.h; sourceTree = "<group>"; };
+		7AF2E1E6181C49B00035C17E /* SBConvertitoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBConvertitoreViewController.m; sourceTree = "<group>"; };
+		7AFE1EAE188C48AE008CC990 /* bottoneipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottoneipad@2x.png"; sourceTree = "<group>"; };
+		7AFE1EAF188C48AE008CC990 /* compito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compito.png; sourceTree = "<group>"; };
+		7AFE1EB0188C48AE008CC990 /* compito@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compito@2x.png"; sourceTree = "<group>"; };
+		7AFE1EB1188C48AE008CC990 /* fbipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fbipad.png; sourceTree = "<group>"; };
+		7AFE1EB2188C48AE008CC990 /* fbipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fbipad@2x.png"; sourceTree = "<group>"; };
+		7AFE1EB9188C48AF008CC990 /* giroipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giroipad.png; sourceTree = "<group>"; };
+		7AFE1EBA188C48AF008CC990 /* giroipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "giroipad@2x.png"; sourceTree = "<group>"; };
+		7AFE1EBD188C48AF008CC990 /* googleipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = googleipad.png; sourceTree = "<group>"; };
+		7AFE1EBE188C48AF008CC990 /* googleipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "googleipad@2x.png"; sourceTree = "<group>"; };
+		7AFE1EBF188C48AF008CC990 /* infoipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infoipad.png; sourceTree = "<group>"; };
+		7AFE1EC0188C48AF008CC990 /* infoipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infoipad@2x.png"; sourceTree = "<group>"; };
+		7AFE1EC1188C48AF008CC990 /* linksipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linksipad.png; sourceTree = "<group>"; };
+		7AFE1EC2188C48AF008CC990 /* linksipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "linksipad@2x.png"; sourceTree = "<group>"; };
+		7AFE1EC3188C48AF008CC990 /* logoipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoipad.png; sourceTree = "<group>"; };
+		7AFE1EC4188C48AF008CC990 /* logoipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logoipad@2x.png"; sourceTree = "<group>"; };
+		7AFE1EC7188C48AF008CC990 /* settingsipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsipad.png; sourceTree = "<group>"; };
+		7AFE1EC8188C48AF008CC990 /* settingsipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingsipad@2x.png"; sourceTree = "<group>"; };
+		7AFE1EC9188C48AF008CC990 /* twitteripad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitteripad.png; sourceTree = "<group>"; };
+		7AFE1ECA188C48AF008CC990 /* twitteripad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitteripad@2x.png"; sourceTree = "<group>"; };
+		7AFE1ECB188C48AF008CC990 /* utilityipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utilityipad.png; sourceTree = "<group>"; };
+		7AFE1ECC188C48AF008CC990 /* vfipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vfipad.png; sourceTree = "<group>"; };
+		7AFE1ECD188C48AF008CC990 /* vfipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vfipad@2x.png"; sourceTree = "<group>"; };
+		B2272CD0183FE27D005E5F1B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B2272CD1183FE27D005E5F1B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B2272CD2183FE27D005E5F1B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B2272CD3183FE27D005E5F1B /* fis29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fis29.png; sourceTree = "<group>"; };
+		B2272CD4183FE27D005E5F1B /* fis57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fis57.png; sourceTree = "<group>"; };
+		B2272CD5183FE27E005E5F1B /* fis58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fis58.png; sourceTree = "<group>"; };
+		B2272CD6183FE27E005E5F1B /* fis80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fis80.png; sourceTree = "<group>"; };
+		B2272CD7183FE27E005E5F1B /* fis114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fis114.png; sourceTree = "<group>"; };
+		B2272CD8183FE27E005E5F1B /* fis120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fis120.png; sourceTree = "<group>"; };
+		B2272CE2183FE29D005E5F1B /* SBVelocitaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBVelocitaViewController.h; sourceTree = "<group>"; };
+		B2272CE3183FE29D005E5F1B /* SBVelocitaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBVelocitaViewController.m; sourceTree = "<group>"; };
+		B2272CED183FF895005E5F1B /* SBPianoInclinatoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBPianoInclinatoViewController.h; sourceTree = "<group>"; };
+		B2272CEE183FF895005E5F1B /* SBPianoInclinatoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBPianoInclinatoViewController.m; sourceTree = "<group>"; };
+		B22BC4841821956C000A9CA4 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		B22BC4851821956C000A9CA4 /* facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook@2x.png"; sourceTree = "<group>"; };
+		B22BC4881821A63E000A9CA4 /* convert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = convert.png; sourceTree = "<group>"; };
+		B22BC4891821A63E000A9CA4 /* swap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swap.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AF2E0D0180727B80035C17E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF2E0D9180727B80035C17E /* CoreGraphics.framework in Frameworks */,
+				7AF2E0DB180727B80035C17E /* UIKit.framework in Frameworks */,
+				7AF2E0D7180727B80035C17E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF2E0F4180727B80035C17E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF2E0F9180727B80035C17E /* XCTest.framework in Frameworks */,
+				7AF2E0FB180727B80035C17E /* UIKit.framework in Frameworks */,
+				7AF2E0FA180727B80035C17E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A20D69F18201255001710FF /* Formulario Fisica */ = {
+			isa = PBXGroup;
+			children = (
+				7A20D6A018201255001710FF /* Cinematica_Formulario.pdf */,
+				7A20D6A118201255001710FF /* Costanti fisiche_Formulario.pdf */,
+				7A20D6A218201255001710FF /* Elasticità_Formulario.pdf */,
+				7A20D6A318201255001710FF /* Energia_Formulario.pdf */,
+				7A20D6A418201255001710FF /* Fluidi_Formulario.pdf */,
+				7A20D6A518201255001710FF /* Forze_Formulario.pdf */,
+				7A20D6A618201255001710FF /* Impulso e Momento angolare_Formulario.pdf */,
+				7A20D6A718201255001710FF /* Onde_Formulario.pdf */,
+				7A20D6A818201255001710FF /* Sistemi a più corpi_Formulario.pdf */,
+				7A20D6A918201255001710FF /* Termodinamica_Formulario.pdf */,
+				7A20D6AA18201255001710FF /* Urti_Formulario.pdf */,
+				7A20D6AB18201255001710FF /* Vettori_Formulario.pdf */,
+			);
+			path = "Formulario Fisica";
+			sourceTree = "<group>";
+		};
+		7A5B5587189D412500E9BF0D /* Dispense Compresse */ = {
+			isa = PBXGroup;
+			children = (
+				7A5B5589189D412500E9BF0D /* Campo Elettrico.pdf */,
+				7A5B558A189D412500E9BF0D /* Campo Magnetico.pdf */,
+				7A5B558B189D412500E9BF0D /* Corrente Elettrica.pdf */,
+				7A5B558C189D412500E9BF0D /* Dinamica Rotazionale.pdf */,
+				7A5B558D189D412500E9BF0D /* Energia Potenziale e Conservazione dell'Energia Meccanica.pdf */,
+				7A5B558E189D412500E9BF0D /* Equazioni di Maxwell.pdf */,
+				7A5B558F189D412500E9BF0D /* Fenomeni Quantistici.pdf */,
+				7A5B5590189D412500E9BF0D /* Gravitazione.pdf */,
+				7A5B5591189D412500E9BF0D /* Impulso e Quantità di Moto.pdf */,
+				7A5B5592189D412500E9BF0D /* Induzione Elettromagnetica.pdf */,
+				7A5B5593189D412500E9BF0D /* Lavoro ed Energia Cinetica.pdf */,
+				7A5B5594189D412500E9BF0D /* Meccanica dei Fluidi.pdf */,
+				7A5B5595189D412500E9BF0D /* Modello Cinetico dei Gas e Energia Interna.pdf */,
+				7A5B5596189D412500E9BF0D /* Moti Piani e Sistemi di Riferimento non Inerziali.pdf */,
+				7A5B5597189D412500E9BF0D /* Moti Rettilinei e Forze Costanti.pdf */,
+				7A5B5598189D412500E9BF0D /* Onde.pdf */,
+				7A5B5599189D412500E9BF0D /* Primo Principio della Termodinamica.pdf */,
+				7A5B559A189D412500E9BF0D /* Secondo Principio della Termodinamica.pdf */,
+				7A5B559B189D412500E9BF0D /* Temperatura.pdf */,
+				7A5B559C189D412500E9BF0D /* Teoria della Relativita  Speciale.pdf */,
+			);
+			path = "Dispense Compresse";
+			sourceTree = "<group>";
+		};
+		7A5B55B2189D413D00E9BF0D /* Esercizi Compressi */ = {
+			isa = PBXGroup;
+			children = (
+				7A5B55B3189D413D00E9BF0D /* Campo Elettrico_Esercizi.pdf */,
+				7A5B55B4189D413D00E9BF0D /* Campo Magnetico_Esercizi.pdf */,
+				7A5B55B5189D413D00E9BF0D /* Corrente Elettrica_Esercizi.pdf */,
+				7A5B55B6189D413D00E9BF0D /* Dinamica Rotazionale_Esercizi.pdf */,
+				7A5B55B7189D413D00E9BF0D /* Energia Potenziale e Conservazione_Esercizi.pdf */,
+				7A5B55B8189D413D00E9BF0D /* Equazioni di Maxwell_Esercizi.pdf */,
+				7A5B55B9189D413D00E9BF0D /* Gravitazione_Esercizi.pdf */,
+				7A5B55BA189D413D00E9BF0D /* Impulso e Quantita  di Moto_Esercizi.pdf */,
+				7A5B55BB189D413D00E9BF0D /* Induzione Elettromagnetica_Esercizi.pdf */,
+				7A5B55BC189D413D00E9BF0D /* Lavoro ed Energia Cinetica_Esercizi[smallpdf.com].pdf */,
+				7A5B55BD189D413D00E9BF0D /* Meccanica dei Fluidi_Esercizi[smallpdf.com].pdf */,
+				7A5B55BE189D413D00E9BF0D /* Modello cinetico dei Gas e Energia Interna_Esercizi[smallpdf.com].pdf */,
+				7A5B55BF189D413D00E9BF0D /* Moti Piani e Sistemi di Riferimento non Inerziali_Esercizi.pdf */,
+				7A5B55C0189D413D00E9BF0D /* Moti Rettilinei e Forze Costanti_Esercizi.pdf */,
+				7A5B55C1189D413D00E9BF0D /* Onde_Esercizi.pdf */,
+				7A5B55C2189D413D00E9BF0D /* Primo Principio della Termodinamica_Esercizi.pdf */,
+				7A5B55C3189D413D00E9BF0D /* Quesiti di Elettromagnetismo_Esercizi.pdf */,
+				7A5B55C4189D413D00E9BF0D /* Secondo Principio della Termodinamica_Esercizi.pdf */,
+				7A5B55C5189D413D00E9BF0D /* Temperatura_Esercizi[smallpdf.com].pdf */,
+			);
+			path = "Esercizi Compressi";
+			sourceTree = "<group>";
+		};
+		7A6F4C51182CD35F008E31B6 /* Glossario */ = {
+			isa = PBXGroup;
+			children = (
+				7A6F4C52182CD35F008E31B6 /* Areiformi_Glossario.pdf */,
+				7A6F4C53182CD35F008E31B6 /* Differenza di potenziale_Glossario.pdf */,
+				7A6F4C54182CD35F008E31B6 /* Dipoli elettrici_Glossario.pdf */,
+				7A6F4C55182CD35F008E31B6 /* Ebollizione e evaporazione_Glossario.pdf */,
+				7A6F4C56182CD35F008E31B6 /* Impulso e Quantità di moto_Glossario.pdf */,
+				7A6F4C57182CD35F008E31B6 /* Legge di Biot-Savart_Glossario.pdf */,
+				7A6F4C58182CD35F008E31B6 /* Linee di campo_Glossario.pdf */,
+				7A6F4C59182CD35F008E31B6 /* Moto circolare uniforme_Glossario.pdf */,
+				7A6F4C5A182CD35F008E31B6 /* Moto parabolico_Glossario.pdf */,
+				7A6F4C5B182CD35F008E31B6 /* Moto rettilineo uniforme_Glossario.pdf */,
+				7A6F4C5C182CD35F008E31B6 /* Moto rettilineo uniformemente accelerato_Glossario.pdf */,
+				7A6F4C5D182CD35F008E31B6 /* Onde stazionarie_Glossario.pdf */,
+				7A6F4C5E182CD35F008E31B6 /* Potenziale di estrazione_Glossario.pdf */,
+				7A6F4C5F182CD35F008E31B6 /* Primo principio della termodinamica_Glossario.pdf */,
+				7A6F4C60182CD35F008E31B6 /* Principi di Kirchhoff_Glossario.pdf */,
+				7A6F4C61182CD35F008E31B6 /* Principio di relatività di Einstein_Glossario.pdf */,
+				7A6F4C62182CD35F008E31B6 /* Principio zero_Glossario.pdf */,
+				7A6F4C63182CD35F008E31B6 /* Secondo principio della termodinamica (Kelvin e Clausius)_Glossario.pdf */,
+				7A6F4C64182CD35F008E31B6 /* Superconduttività_Glossario.pdf */,
+				7A6F4C65182CD35F008E31B6 /* Teorema di Ampère_Glossario.pdf */,
+				7A6F4C66182CD35F008E31B6 /* Teorema di Carnot_Glossario.pdf */,
+				7A6F4C67182CD35F008E31B6 /* Teorema di Gauss per il campo elettrico_Glossario.pdf */,
+				7A6F4C68182CD35F008E31B6 /* Teorema di Gauss per il campo magnetico_Glossario.pdf */,
+				7A6F4C69182CD35F008E31B6 /* Terza legge della dinamica_Glossario.pdf */,
+				7A6F4C6A182CD35F008E31B6 /* Velocità di fuga_Glossario.pdf */,
+			);
+			path = Glossario;
+			sourceTree = "<group>";
+		};
+		7A6F4C84182CD3F4008E31B6 /* Compiti */ = {
+			isa = PBXGroup;
+			children = (
+				7A6F4C85182CD3F4008E31B6 /* Attrito - Moti rotazionali - Momento d'inerzia.pdf */,
+				7A6F4C86182CD3F4008E31B6 /* Campi magnetici - Corrente.pdf */,
+				7A6F4C87182CD3F4008E31B6 /* Cariche elettriche - Dipoli - Condensatori.pdf */,
+				7A6F4C88182CD3F4008E31B6 /* Corrente - Campi magnetici - Campi elettrici.pdf */,
+				7A6F4C89182CD3F4008E31B6 /* Corrente - Campi magnetici - Differenza di potenziale.pdf */,
+				7A6F4C8A182CD3F4008E31B6 /* Corrente - Cariche elettriche - Campi magnetici - Campi elettrici.pdf */,
+				7A6F4C8B182CD3F4008E31B6 /* Corrente - Condensatori - Campi magnetici.pdf */,
+				7A6F4C8C182CD3F4008E31B6 /* Dinamica - Piano inclinato - Moti.pdf */,
+				7A6F4C8D182CD3F4008E31B6 /* Energia cinetica - Energia potenziale - Molle - Moti.pdf */,
+				7A6F4C8E182CD3F4008E31B6 /* Energia cinetica - Energia potenziale - Molle.pdf */,
+				7A6F4C8F182CD3F4008E31B6 /* Gas - Temperatura - Termodinamica - Macchine termiche.pdf */,
+				7A6F4C90182CD3F4008E31B6 /* Gas - Termodinamica - Onde sonore.pdf */,
+				7A6F4C91182CD3F4008E31B6 /* Gas - Termodinamica - Temperatura.pdf */,
+				7A6F4C92182CD3F4008E31B6 /* Gravitazione - Moti.pdf */,
+				7A6F4C93182CD3F4008E31B6 /* Momento d'inerzia - Dinamica liquidi - Piano inclinato.pdf */,
+				7A6F4C94182CD3F4008E31B6 /* Onde sonore - Onde stazionarie - Frequenza.pdf */,
+				7A6F4C95182CD3F4008E31B6 /* Piano inclinato - Quantità di moto - Attrito - Dinamica.pdf */,
+				7A6F4C96182CD3F4008E31B6 /* Simulazione Terza Prova.pdf */,
+				7A6F4C97182CD3F4008E31B6 /* Sistemi di riferimento - Piano inclinato - Seconda legge della dinamica.pdf */,
+				7A6F4C98182CD3F4008E31B6 /* Statica liquidi - Gravitazione - Moti.pdf */,
+				7A6F4C99182CD3F4008E31B6 /* Termodinamica - Entropia - Macchine termiche.pdf */,
+				7A6F4C9A182CD3F4008E31B6 /* Urti - Moti - Molle.pdf */,
+			);
+			name = Compiti;
+			path = "COMPITI FISICA";
+			sourceTree = "<group>";
+		};
+		7AF2E0CA180727B80035C17E = {
+			isa = PBXGroup;
+			children = (
+				B2272CD0183FE27D005E5F1B /* Default-568h@2x.png */,
+				B2272CD1183FE27D005E5F1B /* Default.png */,
+				B2272CD2183FE27D005E5F1B /* Default@2x.png */,
+				B2272CD3183FE27D005E5F1B /* fis29.png */,
+				7A1BF46518A55D170042F872 /* fis40.png */,
+				7A1BF46718A55D1E0042F872 /* fis50.png */,
+				B2272CD4183FE27D005E5F1B /* fis57.png */,
+				B2272CD5183FE27E005E5F1B /* fis58.png */,
+				7A1BF46918A55D270042F872 /* fis72.png */,
+				7A1BF46B18A55D2D0042F872 /* fis76.png */,
+				B2272CD6183FE27E005E5F1B /* fis80.png */,
+				7A1BF46D18A55D380042F872 /* fis100.png */,
+				B2272CD7183FE27E005E5F1B /* fis114.png */,
+				B2272CD8183FE27E005E5F1B /* fis120.png */,
+				7A1BF46F18A55D450042F872 /* fis144.png */,
+				7A1BF47118A55D4A0042F872 /* fis152.png */,
+				7A1BF47318A55D4F0042F872 /* fis1024.png */,
+				7AF2E0DC180727B80035C17E /* Pocket Physics */,
+				7AF2E0FE180727B80035C17E /* Pocket PhysicsTests */,
+				7AF2E0D5180727B80035C17E /* Frameworks */,
+				7AF2E0D4180727B80035C17E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AF2E0D4180727B80035C17E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AF2E0D3180727B80035C17E /* Pocket Physics.app */,
+				7AF2E0F7180727B80035C17E /* Pocket PhysicsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AF2E0D5180727B80035C17E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AF2E0D6180727B80035C17E /* Foundation.framework */,
+				7AF2E0D8180727B80035C17E /* CoreGraphics.framework */,
+				7AF2E0DA180727B80035C17E /* UIKit.framework */,
+				7AF2E0F8180727B80035C17E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AF2E0DC180727B80035C17E /* Pocket Physics */ = {
+			isa = PBXGroup;
+			children = (
+				7AF2E0E8180727B80035C17E /* Main_iPhone.storyboard */,
+				7A48B25E184BCF6800254527 /* Main_iPad.storyboard */,
+				7AF2E0EE180727B80035C17E /* SBViewController.h */,
+				7AF2E0EF180727B80035C17E /* SBViewController.m */,
+				7AF2E0E5180727B80035C17E /* SBAppDelegate.h */,
+				7AF2E0E6180727B80035C17E /* SBAppDelegate.m */,
+				7A2053461899A70500F7014F /* SBNavigationController.h */,
+				7A2053471899A70500F7014F /* SBNavigationController.m */,
+				B2272CE2183FE29D005E5F1B /* SBVelocitaViewController.h */,
+				B2272CE3183FE29D005E5F1B /* SBVelocitaViewController.m */,
+				B2272CED183FF895005E5F1B /* SBPianoInclinatoViewController.h */,
+				B2272CEE183FF895005E5F1B /* SBPianoInclinatoViewController.m */,
+				7AF2E1E5181C49B00035C17E /* SBConvertitoreViewController.h */,
+				7AF2E1E6181C49B00035C17E /* SBConvertitoreViewController.m */,
+				7AF2E18618171B280035C17E /* SBTableViewController.h */,
+				7AF2E18718171B280035C17E /* SBTableViewController.m */,
+				7AA3ECF2183BC4450009BA79 /* SBGiroViewController.h */,
+				7AA3ECF3183BC4450009BA79 /* SBGiroViewController.m */,
+				7AF2E0F1180727B80035C17E /* Images.xcassets */,
+				7AF2E0DD180727B80035C17E /* Supporting Files */,
+			);
+			path = "Pocket Physics";
+			sourceTree = "<group>";
+		};
+		7AF2E0DD180727B80035C17E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A5B5588189D412500E9BF0D /* Bibliografia.pdf */,
+				7A5B55B2189D413D00E9BF0D /* Esercizi Compressi */,
+				7A5B5587189D412500E9BF0D /* Dispense Compresse */,
+				7A6F4C84182CD3F4008E31B6 /* Compiti */,
+				7A6F4C51182CD35F008E31B6 /* Glossario */,
+				7A20D69F18201255001710FF /* Formulario Fisica */,
+				7AF2E15B181598F00035C17E /* Immagini */,
+				7AF2E0DE180727B80035C17E /* Pocket Physics-Info.plist */,
+				7AF2E0DF180727B80035C17E /* InfoPlist.strings */,
+				7AF2E0E2180727B80035C17E /* main.m */,
+				7AF2E0E4180727B80035C17E /* Pocket Physics-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AF2E0FE180727B80035C17E /* Pocket PhysicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AF2E104180727B80035C17E /* Pocket_PhysicsTests.m */,
+				7AF2E0FF180727B80035C17E /* Supporting Files */,
+			);
+			path = "Pocket PhysicsTests";
+			sourceTree = "<group>";
+		};
+		7AF2E0FF180727B80035C17E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AF2E100180727B80035C17E /* Pocket PhysicsTests-Info.plist */,
+				7AF2E101180727B80035C17E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AF2E15B181598F00035C17E /* Immagini */ = {
+			isa = PBXGroup;
+			children = (
+				7A0892C21844B55500BCDF31 /* girodellamorte.png */,
+				7A0892C41844B55C00BCDF31 /* girodellamorte@2x.png */,
+				7A4208A21840E68700381680 /* pianoinclinatodx.png */,
+				7A4208A41840E68C00381680 /* pianoinclinatodx@2x.png */,
+				7A4208B218424C5300381680 /* velocita.png */,
+				7A4208A61840E69500381680 /* pianoinclinatonull.png */,
+				7A4208A81840E69C00381680 /* pianoinclinatonull@2x.png */,
+				7A4208AA1840E6A100381680 /* pianoinclinatosx.png */,
+				7A4208B418424C5800381680 /* velocita@2x.png */,
+				7A4208AC1840E6A600381680 /* pianoinclinatosx@2x.png */,
+				7A20D6BD1826E89C001710FF /* picker.png */,
+				7AF2E16A181599FD0035C17E /* abc.png */,
+				7AF2E1E318183EB50035C17E /* provacompito@2x.png */,
+				7AF2E16C18159A030035C17E /* abc@2x.png */,
+				7AF2E16E18159A0B0035C17E /* argomenti2.png */,
+				7AF2E15C181598F00035C17E /* bottone.png */,
+				7AA154FC183135C50041D004 /* pianoinclinato@2x.png */,
+				7A0892BE1844B52500BCDF31 /* velocitafuga@2x.png */,
+				7A0892C01844B52A00BCDF31 /* velocitafuga.png */,
+				7AF2E17018159A170035C17E /* clock.png */,
+				B22BC4841821956C000A9CA4 /* facebook.png */,
+				B22BC4851821956C000A9CA4 /* facebook@2x.png */,
+				7A0892CA1844B95700BCDF31 /* divisorio.png */,
+				7AF2E17218159A1D0035C17E /* clock@2x.png */,
+				7AF2E17A181718370035C17E /* convertitore@2x.png */,
+				7AA154F8183135B80041D004 /* giro@2x.png */,
+				7AA154FA183135C10041D004 /* pianoinclinato.png */,
+				B22BC4881821A63E000A9CA4 /* convert.png */,
+				B22BC4891821A63E000A9CA4 /* swap.png */,
+				7A0892C81844B6E900BCDF31 /* link@2x.png */,
+				7AA154F6183135B30041D004 /* giro.png */,
+				7A0892C61844B6E000BCDF31 /* link.png */,
+				7AF2E15D181598F00035C17E /* cover4.png */,
+				7AF2E15E181598F00035C17E /* cover5.png */,
+				7AF2E17C181718400035C17E /* formulario@2x.png */,
+				7AF2E17E181718480035C17E /* glossario@2x.png */,
+				7AF2E180181718590035C17E /* google@2x.png */,
+				7AF2E160181598F00035C17E /* iconfis120.png */,
+				7AF2E161181598F00035C17E /* info.png */,
+				7AF2E184181718790035C17E /* logo@2x.png */,
+				7AF2E17418159A3B0035C17E /* utility.png */,
+				7AF2E17618159A400035C17E /* utility@2x.png */,
+				7AF2E162181598F00035C17E /* settings.png */,
+				7AF2E182181718630035C17E /* twitter@2x.png */,
+				7AF2E17818159A4C0035C17E /* preferiti@2x.png */,
+				7AFE1EAD188C48AE008CC990 /* Immagini iPad */,
+			);
+			path = Immagini;
+			sourceTree = "<group>";
+		};
+		7AFE1EAD188C48AE008CC990 /* Immagini iPad */ = {
+			isa = PBXGroup;
+			children = (
+				7A1BF46318A543FE0042F872 /* coveriPad.png */,
+				7AFE1EAE188C48AE008CC990 /* bottoneipad@2x.png */,
+				7A1BF47D18A61DCF0042F872 /* formulario@2x.png */,
+				7A1BF47F18A61DD70042F872 /* formulario.png */,
+				7AFE1EAF188C48AE008CC990 /* compito.png */,
+				7A1BF47B18A61DC70042F872 /* fuga.png */,
+				7AFE1EB0188C48AE008CC990 /* compito@2x.png */,
+				7A1BF48318A61DEB0042F872 /* glossario@2x.png */,
+				7A1BF48518A61DF60042F872 /* pianoinclinato.png */,
+				7A1BF47918A61DC00042F872 /* fuga@2x.png */,
+				7A1BF48718A61DFC0042F872 /* pianoinclinato@2x.png */,
+				7A1BF47518A61DAE0042F872 /* giro@2x.png */,
+				7A1BF48118A61DE40042F872 /* glossario.png */,
+				7A1BF47718A61DB80042F872 /* giro.png */,
+				7AFE1EB1188C48AE008CC990 /* fbipad.png */,
+				7AFE1EB2188C48AE008CC990 /* fbipad@2x.png */,
+				7AFE1EB9188C48AF008CC990 /* giroipad.png */,
+				7AFE1EBA188C48AF008CC990 /* giroipad@2x.png */,
+				7AFE1EBD188C48AF008CC990 /* googleipad.png */,
+				7AFE1EBE188C48AF008CC990 /* googleipad@2x.png */,
+				7AFE1EBF188C48AF008CC990 /* infoipad.png */,
+				7AFE1EC0188C48AF008CC990 /* infoipad@2x.png */,
+				7AFE1EC1188C48AF008CC990 /* linksipad.png */,
+				7AFE1EC2188C48AF008CC990 /* linksipad@2x.png */,
+				7AFE1EC3188C48AF008CC990 /* logoipad.png */,
+				7AFE1EC4188C48AF008CC990 /* logoipad@2x.png */,
+				7AFE1EC7188C48AF008CC990 /* settingsipad.png */,
+				7AFE1EC8188C48AF008CC990 /* settingsipad@2x.png */,
+				7AFE1EC9188C48AF008CC990 /* twitteripad.png */,
+				7AFE1ECA188C48AF008CC990 /* twitteripad@2x.png */,
+				7AFE1ECB188C48AF008CC990 /* utilityipad.png */,
+				7AFE1ECC188C48AF008CC990 /* vfipad.png */,
+				7AFE1ECD188C48AF008CC990 /* vfipad@2x.png */,
+			);
+			path = "Immagini iPad";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AF2E0D2180727B80035C17E /* Pocket Physics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF2E108180727B80035C17E /* Build configuration list for PBXNativeTarget "Pocket Physics" */;
+			buildPhases = (
+				7AF2E0CF180727B80035C17E /* Sources */,
+				7AF2E0D0180727B80035C17E /* Frameworks */,
+				7AF2E0D1180727B80035C17E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pocket Physics";
+			productName = "Pocket Physics";
+			productReference = 7AF2E0D3180727B80035C17E /* Pocket Physics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AF2E0F6180727B80035C17E /* Pocket PhysicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF2E10B180727B80035C17E /* Build configuration list for PBXNativeTarget "Pocket PhysicsTests" */;
+			buildPhases = (
+				7AF2E0F3180727B80035C17E /* Sources */,
+				7AF2E0F4180727B80035C17E /* Frameworks */,
+				7AF2E0F5180727B80035C17E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AF2E0FD180727B80035C17E /* PBXTargetDependency */,
+			);
+			name = "Pocket PhysicsTests";
+			productName = "Pocket PhysicsTests";
+			productReference = 7AF2E0F7180727B80035C17E /* Pocket PhysicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AF2E0CB180727B80035C17E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Federico Baldi Lanfranchi";
+				TargetAttributes = {
+					7AF2E0D2180727B80035C17E = {
+						DevelopmentTeam = X6XZQV2VJL;
+					};
+					7AF2E0F6180727B80035C17E = {
+						TestTargetID = 7AF2E0D2180727B80035C17E;
+					};
+				};
+			};
+			buildConfigurationList = 7AF2E0CE180727B80035C17E /* Build configuration list for PBXProject "Pocket Physics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AF2E0CA180727B80035C17E;
+			productRefGroup = 7AF2E0D4180727B80035C17E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AF2E0D2180727B80035C17E /* Pocket Physics */,
+				7AF2E0F6180727B80035C17E /* Pocket PhysicsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AF2E0D1180727B80035C17E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6F4C6D182CD35F008E31B6 /* Dipoli elettrici_Glossario.pdf in Resources */,
+				7A5B55B0189D412500E9BF0D /* Temperatura.pdf in Resources */,
+				7A0892C71844B6E000BCDF31 /* link.png in Resources */,
+				7AF2E16B181599FD0035C17E /* abc.png in Resources */,
+				7A6F4CA2182CD3F4008E31B6 /* Dinamica - Piano inclinato - Moti.pdf in Resources */,
+				7A5B55A6189D412500E9BF0D /* Impulso e Quantità di Moto.pdf in Resources */,
+				7A6F4C7E182CD35F008E31B6 /* Teorema di Ampère_Glossario.pdf in Resources */,
+				7A6F4C6E182CD35F008E31B6 /* Ebollizione e evaporazione_Glossario.pdf in Resources */,
+				7A5B55A5189D412500E9BF0D /* Gravitazione.pdf in Resources */,
+				7AA154F7183135B30041D004 /* giro.png in Resources */,
+				7A20D6B318201255001710FF /* Onde_Formulario.pdf in Resources */,
+				7A6F4C7D182CD35F008E31B6 /* Superconduttività_Glossario.pdf in Resources */,
+				7AA154FD183135C50041D004 /* pianoinclinato@2x.png in Resources */,
+				B2272CDA183FE27E005E5F1B /* Default.png in Resources */,
+				7A0892BF1844B52500BCDF31 /* velocitafuga@2x.png in Resources */,
+				7AF2E17518159A3B0035C17E /* utility.png in Resources */,
+				7AFE1ED2188C48AF008CC990 /* fbipad@2x.png in Resources */,
+				7A6F4C72182CD35F008E31B6 /* Moto circolare uniforme_Glossario.pdf in Resources */,
+				7A1BF48818A61DFC0042F872 /* pianoinclinato@2x.png in Resources */,
+				7A20D6B218201255001710FF /* Impulso e Momento angolare_Formulario.pdf in Resources */,
+				7AF2E17D181718400035C17E /* formulario@2x.png in Resources */,
+				7A5B559E189D412500E9BF0D /* Campo Elettrico.pdf in Resources */,
+				7A4208A51840E68C00381680 /* pianoinclinatodx@2x.png in Resources */,
+				7A5B55D8189D413D00E9BF0D /* Temperatura_Esercizi[smallpdf.com].pdf in Resources */,
+				7A5B55CD189D413D00E9BF0D /* Impulso e Quantita  di Moto_Esercizi.pdf in Resources */,
+				7A6F4C9F182CD3F4008E31B6 /* Corrente - Campi magnetici - Differenza di potenziale.pdf in Resources */,
+				7A6F4CA1182CD3F4008E31B6 /* Corrente - Condensatori - Campi magnetici.pdf in Resources */,
+				7AFE1EDA188C48AF008CC990 /* giroipad@2x.png in Resources */,
+				7A5B55D3189D413D00E9BF0D /* Moti Rettilinei e Forze Costanti_Esercizi.pdf in Resources */,
+				7A6F4C70182CD35F008E31B6 /* Legge di Biot-Savart_Glossario.pdf in Resources */,
+				7A20D6B118201255001710FF /* Forze_Formulario.pdf in Resources */,
+				7A6F4CB0182CD3F4008E31B6 /* Urti - Moti - Molle.pdf in Resources */,
+				7A5B55AA189D412500E9BF0D /* Modello Cinetico dei Gas e Energia Interna.pdf in Resources */,
+				7A5B55B1189D412500E9BF0D /* Teoria della Relativita  Speciale.pdf in Resources */,
+				7A6F4C7C182CD35F008E31B6 /* Secondo principio della termodinamica (Kelvin e Clausius)_Glossario.pdf in Resources */,
+				7A4208AD1840E6A600381680 /* pianoinclinatosx@2x.png in Resources */,
+				7A48B25F184BCF6800254527 /* Main_iPad.storyboard in Resources */,
+				7A1BF46E18A55D380042F872 /* fis100.png in Resources */,
+				7A5B55A1189D412500E9BF0D /* Dinamica Rotazionale.pdf in Resources */,
+				7A0892C91844B6E900BCDF31 /* link@2x.png in Resources */,
+				7A5B55C8189D413D00E9BF0D /* Corrente Elettrica_Esercizi.pdf in Resources */,
+				7AFE1EE2188C48AF008CC990 /* linksipad@2x.png in Resources */,
+				7A6F4C80182CD35F008E31B6 /* Teorema di Gauss per il campo elettrico_Glossario.pdf in Resources */,
+				7AF2E1E418183EB50035C17E /* provacompito@2x.png in Resources */,
+				7A1BF47418A55D4F0042F872 /* fis1024.png in Resources */,
+				7AFE1EE0188C48AF008CC990 /* infoipad@2x.png in Resources */,
+				7A20D6BE1826E89C001710FF /* picker.png in Resources */,
+				7A6F4C6B182CD35F008E31B6 /* Areiformi_Glossario.pdf in Resources */,
+				7AFE1ED9188C48AF008CC990 /* giroipad.png in Resources */,
+				7A4208B318424C5300381680 /* velocita.png in Resources */,
+				7A5B55AE189D412500E9BF0D /* Primo Principio della Termodinamica.pdf in Resources */,
+				B2272CDE183FE27E005E5F1B /* fis58.png in Resources */,
+				7A5B559D189D412500E9BF0D /* Bibliografia.pdf in Resources */,
+				B22BC48A1821A63E000A9CA4 /* convert.png in Resources */,
+				7A6F4C9C182CD3F4008E31B6 /* Campi magnetici - Corrente.pdf in Resources */,
+				7A0892C31844B55500BCDF31 /* girodellamorte.png in Resources */,
+				7A5B55CC189D413D00E9BF0D /* Gravitazione_Esercizi.pdf in Resources */,
+				B22BC4871821956C000A9CA4 /* facebook@2x.png in Resources */,
+				7AFE1EE9188C48AF008CC990 /* twitteripad.png in Resources */,
+				7AFE1ECE188C48AF008CC990 /* bottoneipad@2x.png in Resources */,
+				7A1BF46418A543FE0042F872 /* coveriPad.png in Resources */,
+				7A5B55AC189D412500E9BF0D /* Moti Rettilinei e Forze Costanti.pdf in Resources */,
+				7A5B55A4189D412500E9BF0D /* Fenomeni Quantistici.pdf in Resources */,
+				7AFE1EDF188C48AF008CC990 /* infoipad.png in Resources */,
+				7A6F4C82182CD35F008E31B6 /* Terza legge della dinamica_Glossario.pdf in Resources */,
+				7AF2E16F18159A0B0035C17E /* argomenti2.png in Resources */,
+				7AF2E181181718590035C17E /* google@2x.png in Resources */,
+				7A6F4C7F182CD35F008E31B6 /* Teorema di Carnot_Glossario.pdf in Resources */,
+				7A20D6B418201255001710FF /* Sistemi a più corpi_Formulario.pdf in Resources */,
+				7A5B55A2189D412500E9BF0D /* Energia Potenziale e Conservazione dell'Energia Meccanica.pdf in Resources */,
+				7AF2E167181598F00035C17E /* iconfis120.png in Resources */,
+				7A6F4CAD182CD3F4008E31B6 /* Sistemi di riferimento - Piano inclinato - Seconda legge della dinamica.pdf in Resources */,
+				7A1BF47018A55D450042F872 /* fis144.png in Resources */,
+				B2272CD9183FE27E005E5F1B /* Default-568h@2x.png in Resources */,
+				7A1BF48018A61DD70042F872 /* formulario.png in Resources */,
+				7AF2E17B181718370035C17E /* convertitore@2x.png in Resources */,
+				7AF2E168181598F00035C17E /* info.png in Resources */,
+				7AFE1EEC188C48AF008CC990 /* vfipad.png in Resources */,
+				7A5B55CB189D413D00E9BF0D /* Equazioni di Maxwell_Esercizi.pdf in Resources */,
+				7A0892C11844B52A00BCDF31 /* velocitafuga.png in Resources */,
+				7A0892CB1844B95700BCDF31 /* divisorio.png in Resources */,
+				7A5B55A9189D412500E9BF0D /* Meccanica dei Fluidi.pdf in Resources */,
+				7A20D6AD18201255001710FF /* Costanti fisiche_Formulario.pdf in Resources */,
+				7A6F4CA7182CD3F4008E31B6 /* Gas - Termodinamica - Temperatura.pdf in Resources */,
+				7A20D6B618201255001710FF /* Urti_Formulario.pdf in Resources */,
+				7A1BF46618A55D170042F872 /* fis40.png in Resources */,
+				7AFE1EE1188C48AF008CC990 /* linksipad.png in Resources */,
+				7A6F4C75182CD35F008E31B6 /* Moto rettilineo uniformemente accelerato_Glossario.pdf in Resources */,
+				7A5B55D4189D413D00E9BF0D /* Onde_Esercizi.pdf in Resources */,
+				7A6F4C9B182CD3F4008E31B6 /* Attrito - Moti rotazionali - Momento d'inerzia.pdf in Resources */,
+				7AFE1EE7188C48AF008CC990 /* settingsipad.png in Resources */,
+				7A6F4C81182CD35F008E31B6 /* Teorema di Gauss per il campo magnetico_Glossario.pdf in Resources */,
+				7A20D6B018201255001710FF /* Fluidi_Formulario.pdf in Resources */,
+				7A6F4CA6182CD3F4008E31B6 /* Gas - Termodinamica - Onde sonore.pdf in Resources */,
+				7A1BF47618A61DAE0042F872 /* giro@2x.png in Resources */,
+				7A4208A91840E69C00381680 /* pianoinclinatonull@2x.png in Resources */,
+				7A20D6AF18201255001710FF /* Energia_Formulario.pdf in Resources */,
+				B2272CE1183FE27E005E5F1B /* fis120.png in Resources */,
+				7A6F4C7A182CD35F008E31B6 /* Principio di relatività di Einstein_Glossario.pdf in Resources */,
+				7A20D6B718201255001710FF /* Vettori_Formulario.pdf in Resources */,
+				7AA154F9183135B80041D004 /* giro@2x.png in Resources */,
+				7A6F4CA4182CD3F4008E31B6 /* Energia cinetica - Energia potenziale - Molle.pdf in Resources */,
+				7A6F4C77182CD35F008E31B6 /* Potenziale di estrazione_Glossario.pdf in Resources */,
+				7A5B55AB189D412500E9BF0D /* Moti Piani e Sistemi di Riferimento non Inerziali.pdf in Resources */,
+				7A5B55A3189D412500E9BF0D /* Equazioni di Maxwell.pdf in Resources */,
+				B2272CDC183FE27E005E5F1B /* fis29.png in Resources */,
+				7A5B559F189D412500E9BF0D /* Campo Magnetico.pdf in Resources */,
+				7A6F4CA5182CD3F4008E31B6 /* Gas - Temperatura - Termodinamica - Macchine termiche.pdf in Resources */,
+				7A6F4C6C182CD35F008E31B6 /* Differenza di potenziale_Glossario.pdf in Resources */,
+				7A1BF48218A61DE40042F872 /* glossario.png in Resources */,
+				7A4208AB1840E6A100381680 /* pianoinclinatosx.png in Resources */,
+				7A20D6B518201255001710FF /* Termodinamica_Formulario.pdf in Resources */,
+				7A6F4CAC182CD3F4008E31B6 /* Simulazione Terza Prova.pdf in Resources */,
+				7AF2E17318159A1D0035C17E /* clock@2x.png in Resources */,
+				7A1BF46C18A55D2D0042F872 /* fis76.png in Resources */,
+				7A5B55D5189D413D00E9BF0D /* Primo Principio della Termodinamica_Esercizi.pdf in Resources */,
+				7A6F4C7B182CD35F008E31B6 /* Principio zero_Glossario.pdf in Resources */,
+				7A5B55D7189D413D00E9BF0D /* Secondo Principio della Termodinamica_Esercizi.pdf in Resources */,
+				7AF2E185181718790035C17E /* logo@2x.png in Resources */,
+				7A6F4CAB182CD3F4008E31B6 /* Piano inclinato - Quantità di moto - Attrito - Dinamica.pdf in Resources */,
+				7A20D6AE18201255001710FF /* Elasticità_Formulario.pdf in Resources */,
+				7AF2E17718159A400035C17E /* utility@2x.png in Resources */,
+				B22BC4861821956C000A9CA4 /* facebook.png in Resources */,
+				7A6F4C9D182CD3F4008E31B6 /* Cariche elettriche - Dipoli - Condensatori.pdf in Resources */,
+				7AF2E169181598F00035C17E /* settings.png in Resources */,
+				7AF2E17118159A170035C17E /* clock.png in Resources */,
+				7A0892C51844B55C00BCDF31 /* girodellamorte@2x.png in Resources */,
+				B22BC48B1821A63E000A9CA4 /* swap.png in Resources */,
+				7AF2E0F2180727B80035C17E /* Images.xcassets in Resources */,
+				7A1BF47818A61DB80042F872 /* giro.png in Resources */,
+				7A5B55D2189D413D00E9BF0D /* Moti Piani e Sistemi di Riferimento non Inerziali_Esercizi.pdf in Resources */,
+				7AFE1EDE188C48AF008CC990 /* googleipad@2x.png in Resources */,
+				7A1BF48618A61DF60042F872 /* pianoinclinato.png in Resources */,
+				7AF2E183181718630035C17E /* twitter@2x.png in Resources */,
+				7A6F4C71182CD35F008E31B6 /* Linee di campo_Glossario.pdf in Resources */,
+				7AFE1EED188C48AF008CC990 /* vfipad@2x.png in Resources */,
+				7A6F4C83182CD35F008E31B6 /* Velocità di fuga_Glossario.pdf in Resources */,
+				7A5B55A8189D412500E9BF0D /* Lavoro ed Energia Cinetica.pdf in Resources */,
+				7AF2E164181598F00035C17E /* cover4.png in Resources */,
+				7AF2E16D18159A030035C17E /* abc@2x.png in Resources */,
+				7AFE1ED1188C48AF008CC990 /* fbipad.png in Resources */,
+				7A6F4C6F182CD35F008E31B6 /* Impulso e Quantità di moto_Glossario.pdf in Resources */,
+				7AFE1EE4188C48AF008CC990 /* logoipad@2x.png in Resources */,
+				7AA154FB183135C10041D004 /* pianoinclinato.png in Resources */,
+				7AFE1EEB188C48AF008CC990 /* utilityipad.png in Resources */,
+				7A6F4CA9182CD3F4008E31B6 /* Momento d'inerzia - Dinamica liquidi - Piano inclinato.pdf in Resources */,
+				7A1BF48418A61DEB0042F872 /* glossario@2x.png in Resources */,
+				7A4208A71840E69500381680 /* pianoinclinatonull.png in Resources */,
+				7A5B55CA189D413D00E9BF0D /* Energia Potenziale e Conservazione_Esercizi.pdf in Resources */,
+				7A5B55D1189D413D00E9BF0D /* Modello cinetico dei Gas e Energia Interna_Esercizi[smallpdf.com].pdf in Resources */,
+				7AFE1EEA188C48AF008CC990 /* twitteripad@2x.png in Resources */,
+				7A6F4C76182CD35F008E31B6 /* Onde stazionarie_Glossario.pdf in Resources */,
+				7A5B55C9189D413D00E9BF0D /* Dinamica Rotazionale_Esercizi.pdf in Resources */,
+				7AF2E165181598F00035C17E /* cover5.png in Resources */,
+				7A5B55AD189D412500E9BF0D /* Onde.pdf in Resources */,
+				7A5B55CE189D413D00E9BF0D /* Induzione Elettromagnetica_Esercizi.pdf in Resources */,
+				7A6F4C73182CD35F008E31B6 /* Moto parabolico_Glossario.pdf in Resources */,
+				7A4208B518424C5800381680 /* velocita@2x.png in Resources */,
+				7AFE1ECF188C48AF008CC990 /* compito.png in Resources */,
+				7A5B55A7189D412500E9BF0D /* Induzione Elettromagnetica.pdf in Resources */,
+				7AFE1EDD188C48AF008CC990 /* googleipad.png in Resources */,
+				7A1BF46A18A55D270042F872 /* fis72.png in Resources */,
+				7A5B55CF189D413D00E9BF0D /* Lavoro ed Energia Cinetica_Esercizi[smallpdf.com].pdf in Resources */,
+				7A1BF47C18A61DC70042F872 /* fuga.png in Resources */,
+				7AFE1ED0188C48AF008CC990 /* compito@2x.png in Resources */,
+				7A6F4CA8182CD3F4008E31B6 /* Gravitazione - Moti.pdf in Resources */,
+				7A1BF47218A55D4A0042F872 /* fis152.png in Resources */,
+				7A20D6AC18201255001710FF /* Cinematica_Formulario.pdf in Resources */,
+				7AF2E0EA180727B80035C17E /* Main_iPhone.storyboard in Resources */,
+				7A6F4CAA182CD3F4008E31B6 /* Onde sonore - Onde stazionarie - Frequenza.pdf in Resources */,
+				B2272CDF183FE27E005E5F1B /* fis80.png in Resources */,
+				7A5B55D0189D413D00E9BF0D /* Meccanica dei Fluidi_Esercizi[smallpdf.com].pdf in Resources */,
+				7A5B55A0189D412500E9BF0D /* Corrente Elettrica.pdf in Resources */,
+				B2272CDD183FE27E005E5F1B /* fis57.png in Resources */,
+				7AFE1EE3188C48AF008CC990 /* logoipad.png in Resources */,
+				B2272CDB183FE27E005E5F1B /* Default@2x.png in Resources */,
+				7A5B55AF189D412500E9BF0D /* Secondo Principio della Termodinamica.pdf in Resources */,
+				7A6F4CAE182CD3F4008E31B6 /* Statica liquidi - Gravitazione - Moti.pdf in Resources */,
+				7A6F4CA3182CD3F4008E31B6 /* Energia cinetica - Energia potenziale - Molle - Moti.pdf in Resources */,
+				7AFE1EE8188C48AF008CC990 /* settingsipad@2x.png in Resources */,
+				7A1BF47A18A61DC00042F872 /* fuga@2x.png in Resources */,
+				7AF2E17F181718480035C17E /* glossario@2x.png in Resources */,
+				7A5B55C6189D413D00E9BF0D /* Campo Elettrico_Esercizi.pdf in Resources */,
+				7A6F4CA0182CD3F4008E31B6 /* Corrente - Cariche elettriche - Campi magnetici - Campi elettrici.pdf in Resources */,
+				7A1BF47E18A61DCF0042F872 /* formulario@2x.png in Resources */,
+				B2272CE0183FE27E005E5F1B /* fis114.png in Resources */,
+				7A6F4C79182CD35F008E31B6 /* Principi di Kirchhoff_Glossario.pdf in Resources */,
+				7A4208A31840E68700381680 /* pianoinclinatodx.png in Resources */,
+				7A6F4C74182CD35F008E31B6 /* Moto rettilineo uniforme_Glossario.pdf in Resources */,
+				7A6F4CAF182CD3F4008E31B6 /* Termodinamica - Entropia - Macchine termiche.pdf in Resources */,
+				7AF2E17918159A4C0035C17E /* preferiti@2x.png in Resources */,
+				7AF2E0E1180727B80035C17E /* InfoPlist.strings in Resources */,
+				7A5B55C7189D413D00E9BF0D /* Campo Magnetico_Esercizi.pdf in Resources */,
+				7A1BF46818A55D1E0042F872 /* fis50.png in Resources */,
+				7A5B55D6189D413D00E9BF0D /* Quesiti di Elettromagnetismo_Esercizi.pdf in Resources */,
+				7A6F4C9E182CD3F4008E31B6 /* Corrente - Campi magnetici - Campi elettrici.pdf in Resources */,
+				7A6F4C78182CD35F008E31B6 /* Primo principio della termodinamica_Glossario.pdf in Resources */,
+				7AF2E163181598F00035C17E /* bottone.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF2E0F5180727B80035C17E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF2E103180727B80035C17E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AF2E0CF180727B80035C17E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF2E1E7181C49B00035C17E /* SBConvertitoreViewController.m in Sources */,
+				B2272CE4183FE29D005E5F1B /* SBVelocitaViewController.m in Sources */,
+				7A2053481899A70500F7014F /* SBNavigationController.m in Sources */,
+				7AF2E0E3180727B80035C17E /* main.m in Sources */,
+				7AA3ECF4183BC4450009BA79 /* SBGiroViewController.m in Sources */,
+				7AF2E18818171B280035C17E /* SBTableViewController.m in Sources */,
+				7AF2E0F0180727B80035C17E /* SBViewController.m in Sources */,
+				B2272CEF183FF895005E5F1B /* SBPianoInclinatoViewController.m in Sources */,
+				7AF2E0E7180727B80035C17E /* SBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF2E0F3180727B80035C17E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF2E105180727B80035C17E /* Pocket_PhysicsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AF2E0FD180727B80035C17E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AF2E0D2180727B80035C17E /* Pocket Physics */;
+			targetProxy = 7AF2E0FC180727B80035C17E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AF2E0DF180727B80035C17E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AF2E0E0180727B80035C17E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7AF2E0E8180727B80035C17E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AF2E0E9180727B80035C17E /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7AF2E101180727B80035C17E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AF2E102180727B80035C17E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AF2E106180727B80035C17E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AF2E107180727B80035C17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AF2E109180727B80035C17E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = X6XZQV2VJL;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pocket Physics/Pocket Physics-Prefix.pch";
+				INFOPLIST_FILE = "Pocket Physics/Pocket Physics-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7AF2E10A180727B80035C17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = X6XZQV2VJL;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pocket Physics/Pocket Physics-Prefix.pch";
+				INFOPLIST_FILE = "Pocket Physics/Pocket Physics-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7AF2E10C180727B80035C17E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pocket Physics.app/Pocket Physics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pocket Physics/Pocket Physics-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pocket PhysicsTests/Pocket PhysicsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7AF2E10D180727B80035C17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pocket Physics.app/Pocket Physics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pocket Physics/Pocket Physics-Prefix.pch";
+				INFOPLIST_FILE = "Pocket PhysicsTests/Pocket PhysicsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AF2E0CE180727B80035C17E /* Build configuration list for PBXProject "Pocket Physics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF2E106180727B80035C17E /* Debug */,
+				7AF2E107180727B80035C17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF2E108180727B80035C17E /* Build configuration list for PBXNativeTarget "Pocket Physics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF2E109180727B80035C17E /* Debug */,
+				7AF2E10A180727B80035C17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF2E10B180727B80035C17E /* Build configuration list for PBXNativeTarget "Pocket PhysicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF2E10C180727B80035C17E /* Debug */,
+				7AF2E10D180727B80035C17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AF2E0CB180727B80035C17E /* Project object */;
+}
