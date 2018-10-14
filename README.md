@@ -7,7 +7,7 @@
 </p>
 
 
-# Pocket Physiscs
+# Pocket Physics
 An iOS app with physics lectures for high school, exercises, exam tests and utilities (in italian). It is the twin app of [Pocket Maths](https://github.com/tmscarla/pocket-maths/).
 
 ## Getting Started
