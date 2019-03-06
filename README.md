@@ -16,17 +16,6 @@ At the moment, the app is no longer supported. In order to launch the applicatio
 ## Issues
 The app was test with iOS 8 the last time. There might be some issues due to misplaced views in iPhone > 5S. 
 
-## Screenshots
-These are presentation screenshots of the application when it was on the App Store.
-
-<p align="center" valign="middle">
-  <img src="https://github.com/tmscarla/PocketMaths/blob/master/Screen/iPhone%205/home.png" height="300">
-  <img src="https://github.com/tmscarla/PocketMaths/blob/master/Screen/iPhone%205/utility.png" height="300">
-  <img src="https://github.com/tmscarla/PocketMaths/blob/master/Screen/iPhone%205/argomenti.png" height="300">
-  <img src="https://github.com/tmscarla/PocketMaths/blob/master/Screen/iPhone%205/compito.png" height="300">
-  <img src="https://github.com/tmscarla/PocketMaths/blob/master/Screen/iPhone%205/glossario.png" height="300">
-</p>
-
 # Functionalities
 These are the main functionalities of the application:
 
