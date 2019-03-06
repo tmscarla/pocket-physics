@@ -13,6 +13,17 @@ An iOS app with physics lectures for high school, exercises, exam tests and util
 ## Getting Started
 At the moment, the app is no longer supported. In order to launch the application, just open the Xcode project file in the Project folder and select a compatible deployment target.
 
+## Screenshots
+These are presentation screenshots of the application when it was on the App Store.
+
+<p align="center" valign="middle">
+  <img src="https://github.com/tmscarla/pocket-physics/blob/master/Screen/iPhone%205/home5.png" height="300">
+  <img src="https://github.com/tmscarla/pocket-physics/blob/master/Screen/iPhone%205/utility5.png" height="300">
+  <img src="https://github.com/tmscarla/pocket-physics/blob/master/Screen/iPhone%205/argomenti5.png" height="300">
+  <img src="https://github.com/tmscarla/pocket-physics/blob/master/Screen/iPhone%205/compito5.png" height="300">
+  <img src="https://github.com/tmscarla/pocket-physics/blob/master/Screen/iPhone%205/piano5.png" height="300">
+</p>
+
 ## Issues
 The app was test with iOS 8 the last time. There might be some issues due to misplaced views in iPhone > 5S. 
 
