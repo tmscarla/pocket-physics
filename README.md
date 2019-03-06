@@ -32,10 +32,10 @@ These are the main functionalities of the application:
 
 * **Corso Completo**: a collection of all the lectures of the last three year of high school from Prof. Parigi.
 * **Argomento:** choose a specific topic to study.
-* **Utilities:** a set of mathematical tools.
-  * Second-degree equation resolutor
-  * Conical recognition from a generalized form
-  * Trigonometric tables
+* **Utilities:** a set of useful tools.
+  * Inclined plane
+  * Escape velocity
+  * Circular motion
   * Exams
   * Glossary
 
