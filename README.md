@@ -3,7 +3,7 @@
   <img src="https://github.com/tmscarla/pocket-physics/blob/master/readmeImg/logo-liceo-Castelnuovo.png" height="130">
 </p>
 <p align="center">
- <img src="https://github.com/tmscarla/pocket-physics/blob/master/Screen/screen.png" width="270">
+ <img src="https://github.com/tmscarla/pocket-physics/blob/master/Immagini/screen.png" width="270">
 </p>
 
 
